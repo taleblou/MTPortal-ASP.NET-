@@ -1,0 +1,964 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="35A1F06B-6E90-468F-95B8-F85F8F4C09B6/d:Classes/f:Module.cs" caret="559" fromTop="26" />
+      <File id="E06FA3F6-100A-49F6-B620-5C8E1E912CAA/f:App.Config" caret="503" fromTop="7" />
+      <File id="E06FA3F6-100A-49F6-B620-5C8E1E912CAA/f:TPortal.cs" caret="6146" fromTop="16" />
+      <File id="35A1F06B-6E90-468F-95B8-F85F8F4C09B6/d:Classes/f:Portal.cs" caret="3623" fromTop="16" />
+      <File id="35A1F06B-6E90-468F-95B8-F85F8F4C09B6/f:App.Config" caret="369" fromTop="6" />
+      <File id="0D9D502A-13F0-4C18-AFE4-1835C491DDCB/f:Web.config" caret="14332" fromTop="15" />
+      <File id="0D9D502A-13F0-4C18-AFE4-1835C491DDCB/d:Modules/d:CustomProfile/f:UserProfile.ascx.cs" caret="4605" fromTop="0" />
+      <File id="0D9D502A-13F0-4C18-AFE4-1835C491DDCB/d:Admin/f:UsersManager.ascx.cs" caret="7915" fromTop="0" />
+      <File id="0D9D502A-13F0-4C18-AFE4-1835C491DDCB/d:Admin/f:UsersManager.ascx" caret="4604" fromTop="25" />
+      <File id="E06FA3F6-100A-49F6-B620-5C8E1E912CAA/f:TTab.cs" caret="0" fromTop="0" />
+      <File id="0D9D502A-13F0-4C18-AFE4-1835C491DDCB/d:Admin/f:BlackList.ascx.cs" caret="0" fromTop="0" />
+      <File id="0D9D502A-13F0-4C18-AFE4-1835C491DDCB/d:Admin/f:BlackList.ascx" caret="11134" fromTop="30" />
+      <File id="35A1F06B-6E90-468F-95B8-F85F8F4C09B6/d:Classes/f:Tab.cs" caret="0" fromTop="0" />
+      <File id="0D9D502A-13F0-4C18-AFE4-1835C491DDCB/d:Admin/f:TabsManager.ascx.cs" caret="0" fromTop="0" />
+      <File id="0D9D502A-13F0-4C18-AFE4-1835C491DDCB/d:Admin/f:TabsManager.ascx" caret="0" fromTop="0" />
+      <File id="0D9D502A-13F0-4C18-AFE4-1835C491DDCB/d:UI/d:ModuleLayouts/f:ModuleLayout.ascx.cs" caret="0" fromTop="0" />
+      <File id="0D9D502A-13F0-4C18-AFE4-1835C491DDCB/d:UI/d:ModuleLayouts/f:ModuleLayout.ascx" caret="0" fromTop="0" />
+      <File id="0D9D502A-13F0-4C18-AFE4-1835C491DDCB/d:UI/d:ModuleLayouts/f:DesignedLayout.ascx.designer.cs" caret="0" fromTop="0" />
+      <File id="0D9D502A-13F0-4C18-AFE4-1835C491DDCB/d:UI/d:ModuleLayouts/f:DesignedLayout.ascx.cs" caret="0" fromTop="0" />
+      <File id="0D9D502A-13F0-4C18-AFE4-1835C491DDCB/d:UI/d:ModuleLayouts/f:DesignedLayout.ascx" caret="0" fromTop="0" />
+      <File id="0D9D502A-13F0-4C18-AFE4-1835C491DDCB/d:UI/d:Styles/d:Default/f:Setting.xml" caret="0" fromTop="0" />
+      <File id="0D9D502A-13F0-4C18-AFE4-1835C491DDCB/d:UI/d:Styles/d:Default/d:Themes/d:Default/f:c_config.js" caret="0" fromTop="0" />
+      <File id="E06FA3F6-100A-49F6-B620-5C8E1E912CAA/f:PayaScopeProvider1.cs" caret="4103" fromTop="10" />
+      <File id="0D9D502A-13F0-4C18-AFE4-1835C491DDCB/f:Global.asax.cs" caret="3739" fromTop="10" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="E06FA3F6-100A-49F6-B620-5C8E1E912CAA/f:App.Config" caret="503" fromTop="7" />
+      <File id="0D9D502A-13F0-4C18-AFE4-1835C491DDCB/d:Admin/f:UsersManager.ascx" caret="31114" fromTop="196" />
+      <File id="0D9D502A-13F0-4C18-AFE4-1835C491DDCB/d:Admin/f:UsersManager.ascx" caret="15206" fromTop="200" />
+      <File id="0D9D502A-13F0-4C18-AFE4-1835C491DDCB/d:Admin/f:UsersManager.ascx.cs" caret="6356" fromTop="14" />
+      <File id="0D9D502A-13F0-4C18-AFE4-1835C491DDCB/f:Web.config" caret="16301" fromTop="4" />
+      <File id="0D9D502A-13F0-4C18-AFE4-1835C491DDCB/f:Web.config" caret="2755" fromTop="16" />
+      <File id="35A1F06B-6E90-468F-95B8-F85F8F4C09B6/f:App.Config" caret="826" fromTop="14" />
+      <File id="35A1F06B-6E90-468F-95B8-F85F8F4C09B6/f:App.Config" caret="369" fromTop="6" />
+      <File id="0D9D502A-13F0-4C18-AFE4-1835C491DDCB/f:Web.config" caret="16301" fromTop="41" />
+      <File id="0D9D502A-13F0-4C18-AFE4-1835C491DDCB/f:Web.config" caret="16301" fromTop="25" />
+      <File id="0D9D502A-13F0-4C18-AFE4-1835C491DDCB/f:Web.config" caret="4121" fromTop="23" />
+      <File id="0D9D502A-13F0-4C18-AFE4-1835C491DDCB/f:Web.config" caret="16588" fromTop="28" />
+      <File id="0D9D502A-13F0-4C18-AFE4-1835C491DDCB/f:Web.config" caret="16181" fromTop="27" />
+      <File id="0D9D502A-13F0-4C18-AFE4-1835C491DDCB/f:Web.config" caret="15825" fromTop="21" />
+      <File id="0D9D502A-13F0-4C18-AFE4-1835C491DDCB/f:Web.config" caret="14412" fromTop="8" />
+      <File id="0D9D502A-13F0-4C18-AFE4-1835C491DDCB/f:Web.config" caret="14527" fromTop="11" />
+    </RecentEdits>
+  </RecentFiles>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="public" priority="981" />
+      <Item value="return" priority="4379" />
+      <Item value="Language" priority="122" />
+      <Item value="this" priority="127" />
+      <Item value="private" priority="63" />
+      <Item value="Language`0" priority="374" />
+      <Item value="get" priority="131" />
+      <Item value="TLanguage" priority="95" />
+      <Item value="var" priority="1823" />
+      <Item value="Tab`0" priority="550" />
+      <Item value="set" priority="65" />
+      <Item value="TTab`0" priority="503" />
+      <Item value="static" priority="249" />
+      <Item value="new" priority="735" />
+      <Item value="tLanguage" priority="31" />
+      <Item value="Tab" priority="32" />
+      <Item value="TTab1" priority="31" />
+      <Item value="User`0" priority="218" />
+      <Item value="email" priority="95" />
+      <Item value="firstName" priority="63" />
+      <Item value="Email" priority="58" />
+      <Item value="FirstName" priority="58" />
+      <Item value="IsLocked" priority="58" />
+      <Item value="IsSuperUser" priority="31" />
+      <Item value="LastName" priority="58" />
+      <Item value="PortalID" priority="551" />
+      <Item value="UserName" priority="90" />
+      <Item value="UserPass" priority="64" />
+      <Item value="UserStyle" priority="31" />
+      <Item value="UserID" priority="95" />
+      <Item value="TabRole`0" priority="213" />
+      <Item value="RoleID" priority="159" />
+      <Item value="TabID" priority="304" />
+      <Item value="TabRoleID" priority="63" />
+      <Item value="description" priority="26" />
+      <Item value="Description" priority="53" />
+      <Item value="ISreserved" priority="53" />
+      <Item value="Keywords" priority="53" />
+      <Item value="LanguageID" priority="208" />
+      <Item value="ParentID" priority="166" />
+      <Item value="Roles" priority="53" />
+      <Item value="Settings" priority="146" />
+      <Item value="ShowFooter" priority="53" />
+      <Item value="ShowHorizontal" priority="53" />
+      <Item value="Url" priority="53" />
+      <Item value="Target" priority="53" />
+      <Item value="TabOrder" priority="53" />
+      <Item value="TabName" priority="53" />
+      <Item value="ShowVertical" priority="53" />
+      <Item value="NestLevel" priority="31" />
+      <Item value="TabFlat`0" priority="63" />
+      <Item value="Role`0" priority="401" />
+      <Item value="RoleKey" priority="90" />
+      <Item value="Portal`0" priority="410" />
+      <Item value="PortalName" priority="31" />
+      <Item value="PortalPath" priority="63" />
+      <Item value="PortalAlias" priority="31" />
+      <Item value="PortalLanguage`0" priority="218" />
+      <Item value="Enabled" priority="95" />
+      <Item value="HomeTabID" priority="63" />
+      <Item value="ID" priority="63" />
+      <Item value="PortalSetting`0" priority="943" />
+      <Item value="SettingName" priority="95" />
+      <Item value="SettingValue" priority="95" />
+      <Item value="ModuleDefSetting`0" priority="159" />
+      <Item value="DefValue" priority="31" />
+      <Item value="ModuleDefID" priority="123" />
+      <Item value="SettingValues" priority="31" />
+      <Item value="SettingID" priority="127" />
+      <Item value="ModuleSetting`0" priority="95" />
+      <Item value="ModuleID" priority="277" />
+      <Item value="MSettID" priority="63" />
+      <Item value="ModuleRole`0" priority="208" />
+      <Item value="AuthID" priority="255" />
+      <Item value="ModuleRoleID" priority="31" />
+      <Item value="ModuleControl`0" priority="90" />
+      <Item value="CalendarLanguage" priority="31" />
+      <Item value="Culture" priority="31" />
+      <Item value="Direction" priority="31" />
+      <Item value="HomeTabName" priority="31" />
+      <Item value="LanguageName" priority="31" />
+      <Item value="ObjUser`0" priority="159" />
+      <Item value="ObjID" priority="31" />
+      <Item value="ObjUserID" priority="31" />
+      <Item value="AuthObjBased`0" priority="159" />
+      <Item value="AuthKey" priority="127" />
+      <Item value="AuthRoleBased`0" priority="149" />
+      <Item value="o" priority="1888" />
+      <Item value="int" priority="802" />
+      <Item value="TUser`0" priority="436" />
+      <Item value="userId" priority="127" />
+      <Item value="isLocked" priority="31" />
+      <Item value="userPass" priority="31" />
+      <Item value="parentId" priority="58" />
+      <Item value="TLanguage`0" priority="31" />
+      <Item value="portalAlias" priority="63" />
+      <Item value="TPortal`0" priority="95" />
+      <Item value="Dictionary" priority="60" />
+      <Item value="string" priority="501" />
+      <Item value="portalId" priority="378" />
+      <Item value="pI" priority="129" />
+      <Item value="foreach" priority="474" />
+      <Item value="dic" priority="63" />
+      <Item value="portalSetting" priority="63" />
+      <Item value="PayaBL" priority="500" />
+      <Item value="Classes" priority="323" />
+      <Item value="PortalUser`0" priority="414" />
+      <Item value="if" priority="511" />
+      <Item value="i" priority="62" />
+      <Item value="null" priority="629" />
+      <Item value="Module`0" priority="149" />
+      <Item value="moduleId" priority="31" />
+      <Item value="authId" priority="191" />
+      <Item value="module" priority="31" />
+      <Item value="moduleRole" priority="126" />
+      <Item value="str" priority="127" />
+      <Item value="mrol" priority="31" />
+      <Item value="tabId" priority="186" />
+      <Item value="try" priority="31" />
+      <Item value="#region" priority="351" />
+      <Item value="#elif" priority="31" />
+      <Item value="#endregion" priority="411" />
+      <Item value="PortalId" priority="191" />
+      <Item value="Modules" priority="31" />
+      <Item value="TModule`0" priority="341" />
+      <Item value="GetCollectionObjectFromDbCollectionObject`0" priority="528" />
+      <Item value="IsReserved" priority="107" />
+      <Item value="isreserved" priority="26" />
+      <Item value="TRole`0" priority="705" />
+      <Item value="TTabRole`0" priority="154" />
+      <Item value="List" priority="763" />
+      <Item value="VARIABLE" priority="63" />
+      <Item value="role" priority="27" />
+      <Item value="tabRole" priority="91" />
+      <Item value="for" priority="31" />
+      <Item value="rols" priority="63" />
+      <Item value="GetSingleByID`0" priority="63" />
+      <Item value="PortalUser" priority="26" />
+      <Item value="portalID" priority="286" />
+      <Item value="Hashtable`0" priority="64" />
+      <Item value="TPortalSetting`0" priority="31" />
+      <Item value="Paya`0" priority="181" />
+      <Item value="TPortalLanguage`0" priority="250" />
+      <Item value="GetObjectFromDbObject`0" priority="139" />
+      <Item value="true" priority="383" />
+      <Item value="p" priority="63" />
+      <Item value="l" priority="63" />
+      <Item value="portalLanguage" priority="26" />
+      <Item value="CurrentCulture" priority="31" />
+      <Item value="Control" priority="26" />
+      <Item value="Common" priority="161" />
+      <Item value="RoleDB" priority="31" />
+      <Item value="Role1`0" priority="31" />
+      <Item value="objId" priority="159" />
+      <Item value="rol" priority="63" />
+      <Item value="objRole" priority="63" />
+      <Item value="TObjRole`0" priority="213" />
+      <Item value="authID" priority="58" />
+      <Item value="unsafe" priority="30" />
+      <Item value="using" priority="92" />
+      <Item value="PayaTools`0" priority="1168" />
+      <Item value="bool" priority="223" />
+      <Item value="PortalSetting" priority="26" />
+      <Item value="UserRole`0" priority="26" />
+      <Item value="userRoleIDI" priority="80" />
+      <Item value="Roles`0" priority="31" />
+      <Item value="ObjectContainer`0" priority="31" />
+      <Item value="roleId" priority="154" />
+      <Item value="TUserRole`0" priority="63" />
+      <Item value="TUserRole" priority="31" />
+      <Item value="tur" priority="26" />
+      <Item value="LinkedList" priority="31" />
+      <Item value="tUsers" priority="128" />
+      <Item value="List&lt;TUser&gt;" priority="28" />
+      <Item value="trole" priority="31" />
+      <Item value="ob" priority="31" />
+      <Item value="id" priority="31" />
+      <Item value="TTabFlat`0" priority="31" />
+      <Item value="ObjRole`0" priority="58" />
+      <Item value="ViewAttribute`0" priority="31" />
+      <Item value="scope" priority="95" />
+      <Item value="currentCulture" priority="31" />
+      <Item value="t" priority="511" />
+      <Item value="ModuleDef" priority="30" />
+      <Item value="PortalCach" priority="26" />
+      <Item value="Caching`0" priority="26" />
+      <Item value="cc" priority="31" />
+      <Item value="IsUserControl`0" priority="31" />
+      <Item value="DateTime`0" priority="94" />
+      <Item value="moduleID" priority="192" />
+      <Item value="DateTime" priority="28" />
+      <Item value="TModuleSetting`0" priority="58" />
+      <Item value="ModuleSettings" priority="31" />
+      <Item value="settingid" priority="31" />
+      <Item value="initLocal" priority="31" />
+      <Item value="Paya" priority="121" />
+      <Item value="IpAddress" priority="31" />
+      <Item value="Comment" priority="86" />
+      <Item value="ipAddress" priority="31" />
+      <Item value="UpdatedOn" priority="107" />
+      <Item value="GetBannedIpAddressCollectionFromDataReader`0" priority="31" />
+      <Item value="GetBannedIpAddressFromDataReader`0" priority="127" />
+      <Item value="StartIpAddress" priority="85" />
+      <Item value="EndIpAddress" priority="86" />
+      <Item value="IpException" priority="86" />
+      <Item value="comment" priority="26" />
+      <Item value="CreatedOn" priority="26" />
+      <Item value="Id" priority="53" />
+      <Item value="InvalidProgramException`0" priority="26" />
+      <Item value="Add`0" priority="31" />
+      <Item value="TBannedIpNetwork`0" priority="31" />
+      <Item value="RadDock" priority="57" />
+      <Item value="mid" priority="31" />
+      <Item value="pan" priority="31" />
+      <Item value="order" priority="31" />
+      <Item value="toar" priority="31" />
+      <Item value="panName" priority="31" />
+      <Item value="ResourceName" priority="27" />
+      <Item value="ResourceValue" priority="27" />
+      <Item value="ModuleOrder" priority="27" />
+      <Item value="PaneName" priority="27" />
+      <Item value="ShowinAllTab" priority="27" />
+      <Item value="ModuleTitle" priority="27" />
+      <Item value="object" priority="95" />
+      <Item value="emp" priority="223" />
+      <Item value="TModuleRole`0" priority="95" />
+      <Item value="key" priority="31" />
+      <Item value="trol" priority="63" />
+      <Item value="temp" priority="154" />
+      <Item value="objID" priority="191" />
+      <Item value="TObjUser`0" priority="96" />
+      <Item value="GetAllUserInRole`0" priority="31" />
+      <Item value="RoleId" priority="26" />
+      <Item value="objectId" priority="31" />
+      <Item value="user" priority="187" />
+      <Item value="TObjUser" priority="31" />
+      <Item value="TModuleDef`0" priority="31" />
+      <Item value="enable" priority="31" />
+      <Item value="TabControl`0" priority="127" />
+      <Item value="TabId" priority="26" />
+      <Item value="false" priority="223" />
+      <Item value="Page`0" priority="31" />
+      <Item value="TargetTypes`0" priority="26" />
+      <Item value="rolID" priority="31" />
+      <Item value="lastName" priority="31" />
+      <Item value="isSuperUser" priority="31" />
+      <Item value="GetLocalResourceCollectionFromDataReader`0" priority="31" />
+      <Item value="TBannedIpAddress`0" priority="31" />
+      <Item value="partial" priority="31" />
+      <Item value="userID" priority="31" />
+      <Item value="address" priority="31" />
+      <Item value="birthDate" priority="31" />
+      <Item value="certificateNumber" priority="31" />
+      <Item value="failedPasswordAttemptCount" priority="95" />
+      <Item value="hasChangedPassword" priority="31" />
+      <Item value="failedPasswordAttemptStart" priority="31" />
+      <Item value="lastLockoutDate" priority="31" />
+      <Item value="lastLoginDate" priority="31" />
+      <Item value="lastPasswordChangeDate" priority="31" />
+      <Item value="mobile" priority="31" />
+      <Item value="nationalNumber" priority="31" />
+      <Item value="picture" priority="31" />
+      <Item value="sex" priority="31" />
+      <Item value="tel" priority="31" />
+      <Item value="zipCode" priority="31" />
+      <Item value="ReqID" priority="53" />
+      <Item value="userReq" priority="31" />
+      <Item value="PhoneNo" priority="27" />
+      <Item value="reqId" priority="31" />
+      <Item value="CachedModuleControl`0" priority="31" />
+      <Item value="UserControl`0" priority="31" />
+      <Item value="persian" priority="65" />
+      <Item value="PersianDatePickup" priority="91" />
+      <Item value="PersianDatePickup`0" priority="26" />
+      <Item value="Calendar`0" priority="32" />
+      <Item value="userName" priority="31" />
+      <Item value="password" priority="62" />
+      <Item value="else" priority="63" />
+      <Item value="oo" priority="191" />
+      <Item value="Response" priority="95" />
+      <Item value="LocalResource`0" priority="31" />
+      <Item value="protected" priority="31" />
+      <Item value="_rdgrBannedIpNetwork" priority="31" />
+      <Item value="CultureInfo" priority="28" />
+      <Item value="ci" priority="31" />
+      <Item value="checked" priority="31" />
+      <Item value="adminType" priority="31" />
+      <Item value="ObjectScopeProvider`0" priority="31" />
+      <Item value="TAuthObjBased`0" priority="63" />
+      <Item value="modulDefID" priority="85" />
+      <Item value="ModuleDef`0" priority="85" />
+      <Item value="authObjBased" priority="63" />
+      <Item value="t1" priority="31" />
+      <Item value="t2" priority="31" />
+      <Item value="Role" priority="57" />
+      <Item value="b" priority="31" />
+      <Item value="out" priority="63" />
+      <Item value="OutOfMemoryException`0" priority="26" />
+      <Item value="Setting" priority="91" />
+      <Item value="temp2" priority="31" />
+      <Item value="GetAll`0" priority="95" />
+      <Item value="switch" priority="31" />
+      <Item value="controlType" priority="30" />
+      <Item value="case" priority="95" />
+      <Item value="break" priority="159" />
+      <Item value="default" priority="31" />
+      <Item value="settingName" priority="31" />
+      <Item value="ArgumentNullException`0" priority="31" />
+      <Item value="moduleDefInPortal" priority="63" />
+      <Item value="TModuleDefInPortal`0" priority="31" />
+      <Item value="moduleDefId" priority="31" />
+      <Item value="GetReservedTabs`0" priority="31" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PayaBL.Classes.Language">
+      <Item value="GetObjectFromDbObject`0" priority="45" />
+      <Item value="LanguageID" priority="80" />
+      <Item value="Culture" priority="26" />
+      <Item value="CalendarLanguage" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PayaBL.Classes.Tab">
+      <Item value="GetSingleByID`0" priority="315" />
+      <Item value="Add`0" priority="49" />
+      <Item value="Update`0" priority="26" />
+      <Item value="Delete`0" priority="26" />
+      <Item value="UpdateTabName`0" priority="26" />
+      <Item value="AddTab`0" priority="26" />
+      <Item value="TabRole`0" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PayaBL.Classes.Tab">
+      <Item value="Language" priority="72" />
+      <Item value="TTab1" priority="26" />
+      <Item value="Tab" priority="27" />
+      <Item value="Tab1" priority="22" />
+      <Item value="TabID" priority="252" />
+      <Item value="ParentID" priority="164" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PayaBL.Classes.Language">
+      <Item value="Language" priority="25" />
+      <Item value="Add`0" priority="26" />
+      <Item value="Update`0" priority="26" />
+      <Item value="Delete`0" priority="26" />
+      <Item value="GetSingleByID`0" priority="103" />
+      <Item value="CalendarType`0" priority="54" />
+      <Item value="GetAll`0" priority="53" />
+      <Item value="GetSingleLangaugeByCultureName`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PayaBL.Classes.User">
+      <Item value="Add`0" priority="26" />
+      <Item value="Update`0" priority="26" />
+      <Item value="Delete`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PayaBL.Classes.TabRole">
+      <Item value="Add`0" priority="26" />
+      <Item value="Update`0" priority="26" />
+      <Item value="Delete`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PayaBL.Classes.TabFlat">
+      <Item value="Add`0" priority="53" />
+      <Item value="Update`0" priority="27" />
+      <Item value="Delete`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PayaBL.Classes.Role">
+      <Item value="Add`0" priority="26" />
+      <Item value="Update`0" priority="26" />
+      <Item value="Delete`0" priority="26" />
+      <Item value="GetSingleByID`0" priority="26" />
+      <Item value="GetCollectionObjectFromDbCollectionObject`0" priority="49" />
+      <Item value="GetObjectFromDbObject`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PayaBL.Classes.Portal">
+      <Item value="Add`0" priority="53" />
+      <Item value="Update`0" priority="80" />
+      <Item value="Delete`0" priority="53" />
+      <Item value="GetObjectFromDbObject`0" priority="26" />
+      <Item value="GetAll`0" priority="134" />
+      <Item value="GetSingleByID`0" priority="107" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PayaBL.Classes.PortalLanguage">
+      <Item value="Add`0" priority="53" />
+      <Item value="Update`0" priority="26" />
+      <Item value="Delete`0" priority="26" />
+      <Item value="GetAll`0" priority="72" />
+      <Item value="GetSingleByID`0" priority="22" />
+      <Item value="GetLanguagePortalByCulture`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PayaBL.Classes.PortalSetting">
+      <Item value="Add`0" priority="26" />
+      <Item value="Update`0" priority="26" />
+      <Item value="UpdatePortalSettings`0" priority="26" />
+      <Item value="GetAll`0" priority="107" />
+      <Item value="DefaultCulture" priority="53" />
+      <Item value="PortalId" priority="107" />
+      <Item value="GetSingleById`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PayaBL.Classes.ModuleDefSetting">
+      <Item value="Add`0" priority="26" />
+      <Item value="Update`0" priority="26" />
+      <Item value="Delete`0" priority="26" />
+      <Item value="GetSingleByID`0" priority="26" />
+      <Item value="GetAll`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PayaBL.Classes.ModuleSetting">
+      <Item value="Add`0" priority="26" />
+      <Item value="Update`0" priority="26" />
+      <Item value="Delete`0" priority="26" />
+      <Item value="GetSingleByID`0" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PayaBL.Classes.ModuleRole">
+      <Item value="Add`0" priority="26" />
+      <Item value="Update`0" priority="26" />
+      <Item value="Delete`0" priority="26" />
+      <Item value="GetAll`0" priority="54" />
+      <Item value="GetRolesOfModulToString`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PayaBL.Classes.ObjUser">
+      <Item value="Add`0" priority="26" />
+      <Item value="Update`0" priority="26" />
+      <Item value="Delete`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PayaBL.Classes.AuthObjBased">
+      <Item value="Add`0" priority="26" />
+      <Item value="Update`0" priority="26" />
+      <Item value="Delete`0" priority="26" />
+      <Item value="GetModuleAuthObjBased`0" priority="26" />
+      <Item value="GetAuthKeyObjBased`0" priority="50" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PayaBL.Classes.AuthRoleBased">
+      <Item value="Add`0" priority="26" />
+      <Item value="Update`0" priority="26" />
+      <Item value="Delete`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PayaDB.TUser">
+      <Item value="Email" priority="53" />
+      <Item value="PortalID" priority="145" />
+      <Item value="FirstName" priority="26" />
+      <Item value="LastName" priority="26" />
+      <Item value="IsSuperUser" priority="26" />
+      <Item value="UserStyle" priority="53" />
+      <Item value="UserPass" priority="53" />
+      <Item value="UserName" priority="72" />
+      <Item value="userName" priority="26" />
+      <Item value="userPass" priority="53" />
+      <Item value="isLocked" priority="26" />
+      <Item value="UserID" priority="26" />
+      <Item value="GetSingleByID`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PayaDB.TUser">
+      <Item value="GetSingleByEmail`0" priority="80" />
+      <Item value="LockUser`0" priority="26" />
+      <Item value="UpdateUserPassword`0" priority="26" />
+      <Item value="GetSingleByID`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PayaDB.TTab">
+      <Item value="GetChildTabs`0" priority="26" />
+      <Item value="UpdateTabOrder`0" priority="26" />
+      <Item value="GetTabOrder`0" priority="26" />
+      <Item value="GetSingleByID`0" priority="26" />
+      <Item value="Update`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PayaDB.TTab">
+      <Item value="ParentID" priority="53" />
+      <Item value="languageID" priority="53" />
+      <Item value="LanguageID" priority="80" />
+      <Item value="TabID" priority="53" />
+      <Item value="tabID" priority="26" />
+      <Item value="TabOrder" priority="26" />
+      <Item value="settings" priority="26" />
+      <Item value="PortalID" priority="26" />
+      <Item value="Add`0" priority="26" />
+      <Item value="Roles" priority="26" />
+      <Item value="Isreserved" priority="22" />
+      <Item value="isreserved" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PayaDB.TPortalSetting">
+      <Item value="PortalID" priority="53" />
+      <Item value="SettingName" priority="53" />
+      <Item value="SettingValue" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PayaDB.TLanguage">
+      <Item value="Culture" priority="54" />
+      <Item value="GetAll`0" priority="27" />
+      <Item value="Enabled" priority="26" />
+      <Item value="LanguageID" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PayaDB.TLanguage">
+      <Item value="GetSingleLangaugeByCultureName`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PayaDB.TAuthObjBased">
+      <Item value="ModuleDefID" priority="54" />
+      <Item value="AuthID" priority="26" />
+      <Item value="moduleDefID" priority="22" />
+      <Item value="AuthKey" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PayaDB.TPortal">
+      <Item value="GetSingleByID`0" priority="26" />
+      <Item value="GetAll`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PayaDB.TPortal">
+      <Item value="portalAlias" priority="27" />
+      <Item value="PortalID" priority="134" />
+      <Item value="PortalAlias" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.OpenAccess.ExtentQuery`1">
+      <Item value="Where`1" priority="549" />
+      <Item value="Single`1" priority="137" />
+      <Item value="OrderByDescending`2" priority="26" />
+      <Item value="ToArray`1" priority="26" />
+      <Item value="ToList`1" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2">
+      <Item value="Add`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PayaBL.Classes.PortalSetting">
+      <Item value="SettingValue" priority="185" />
+      <Item value="SettingName" priority="104" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Nullable`1">
+      <Item value="Value" priority="26" />
+      <Item value="ToString`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Where`1" priority="433" />
+      <Item value="Add`0" priority="242" />
+      <Item value="Single`1" priority="189" />
+      <Item value="ToString`0" priority="26" />
+      <Item value="TrimExcess`0" priority="22" />
+      <Item value="ToArray`0" priority="22" />
+      <Item value="Find`0" priority="76" />
+      <Item value="SingleOrDefault`1" priority="53" />
+      <Item value="First`1" priority="53" />
+      <Item value="ToList`1" priority="80" />
+      <Item value="Count" priority="26" />
+      <Item value="AddRange`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PayaBL.Classes.ModuleRole">
+      <Item value="ModuleID" priority="53" />
+      <Item value="AuthID" priority="49" />
+      <Item value="RoleID" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PayaBL.Classes.Module">
+      <Item value="GetAll`0" priority="107" />
+      <Item value="GetSingleByID`0" priority="153" />
+      <Item value="Update`0" priority="26" />
+      <Item value="GetModulesOfTab`0" priority="26" />
+      <Item value="GetTabModules`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PayaBL.Classes.Module">
+      <Item value="ModuleID" priority="118" />
+      <Item value="SkinHTML" priority="26" />
+      <Item value="ModuleDef" priority="352" />
+      <Item value="TabID" priority="118" />
+      <Item value="ModuleDefID" priority="118" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PayaDB.TModule">
+      <Item value="TabID" priority="77" />
+      <Item value="ShowinAllTab" priority="22" />
+      <Item value="moduleID" priority="27" />
+      <Item value="lastUpdate" priority="49" />
+      <Item value="ModuleOrder" priority="27" />
+      <Item value="tabID" priority="27" />
+      <Item value="paneName" priority="26" />
+      <Item value="CacheTime" priority="26" />
+      <Item value="ModuleID" priority="26" />
+      <Item value="ModuleDefID" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PayaDB.TTabRole">
+      <Item value="tabID" priority="54" />
+      <Item value="TabID" priority="99" />
+      <Item value="RoleID" priority="53" />
+      <Item value="TabRoleID" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PayaBL.Classes.TabRole">
+      <Item value="RoleID" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PayaDB.TTabRole">
+      <Item value="GetAll`0" priority="26" />
+      <Item value="Delete`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PayaBL.Classes.ModuleDef">
+      <Item value="GetSingleByID`0" priority="72" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PayaDB.TPortalLanguage">
+      <Item value="PortalID" priority="78" />
+      <Item value="LanguageID" priority="107" />
+      <Item value="portalID" priority="26" />
+      <Item value="Enabled" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IQueryable`1">
+      <Item value="Single`1" priority="26" />
+      <Item value="ToList`1" priority="378" />
+      <Item value="Select`2" priority="107" />
+      <Item value="Where`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PayaBL.Classes.PortalLanguage">
+      <Item value="LanguageID" priority="53" />
+      <Item value="HomeTabID" priority="80" />
+      <Item value="TLanguage" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.HtmlControls.HtmlHead">
+      <Item value="Controls" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PayaBL.Classes.PortalUser">
+      <Item value="GetSingleByID`0" priority="195" />
+      <Item value="GetCollectionObjectFromDbCollectionObject`0" priority="26" />
+      <Item value="UpdateLockUser`0" priority="76" />
+      <Item value="LockUser`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PayaBL.Classes.Language+CalendarType">
+      <Item value="ToString`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PayaDB.TObjRole">
+      <Item value="ObjID" priority="49" />
+      <Item value="AuthID" priority="81" />
+      <Item value="RoleID" priority="53" />
+      <Item value="ModuleID" priority="26" />
+      <Item value="moduleID" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PayaDB.TRole">
+      <Item value="GetSingleByID`0" priority="107" />
+      <Item value="GetTabRolesByTabId`0" priority="26" />
+      <Item value="GetAll`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PayaBL.TUserRole">
+      <Item value="UserRoleID" priority="26" />
+      <Item value="RoleID" priority="26" />
+      <Item value="UserID" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="Where`1" priority="80" />
+      <Item value="ToList`1" priority="377" />
+      <Item value="Single`1" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Telerik.OpenAccess.ObjectContainer">
+      <Item value="ResolveProxyEventHandler`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PayaDB.TRole">
+      <Item value="RoleID" priority="26" />
+      <Item value="PortalID" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PayaDB.TUserRole">
+      <Item value="GetAll`0" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PayaDB.TUserRole">
+      <Item value="RoleID" priority="53" />
+      <Item value="UserID" priority="77" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PayaDB.TObjRole">
+      <Item value="GetAll`0" priority="80" />
+      <Item value="GetSingleByID`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PayaBL.Classes.PortalUser">
+      <Item value="UserID" priority="371" />
+      <Item value="UserName" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.OpenAccess.IObjectScope">
+      <Item value="Extent`1" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="AspCodeCompletionContext">
+      <Item value="meta" priority="6" />
+      <Item value="name" priority="6" />
+      <Item value="Template`0" priority="6" />
+      <Item value="Culture" priority="7" />
+      <Item value="onclick" priority="6" />
+      <Item value="debugger" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PayaBL.Classes.ModuleDef">
+      <Item value="DeskTopSRC" priority="215" />
+      <Item value="Enabled" priority="26" />
+      <Item value="ModuleDefId" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Paya.UI.Templates.Template">
+      <Item value="Page" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.Page">
+      <Item value="NamingContainer" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PayaDB.TModule">
+      <Item value="GetModulesShowInAllTabs`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IOrderedQueryable`1">
+      <Item value="First`1" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="CssCodeCompletionContext">
+      <Item value="font-style" priority="5" />
+      <Item value="help" priority="4" />
+      <Item value="pointer" priority="5" />
+      <Item value="width" priority="17" />
+      <Item value="margin-top" priority="5" />
+      <Item value="margin-bottom" priority="5" />
+      <Item value="position" priority="5" />
+      <Item value="absolute" priority="5" />
+      <Item value="padding" priority="5" />
+      <Item value="right" priority="5" />
+      <Item value="padding-top" priority="5" />
+      <Item value="left" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PayaDB.TModuleSetting">
+      <Item value="MSettID" priority="22" />
+      <Item value="SettingID" priority="49" />
+      <Item value="ModuleID" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PayaBL.Classes.ModuleSetting">
+      <Item value="SettingID" priority="233" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PayaDB.TModuleDefSetting">
+      <Item value="DefValue" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PayaBL.Common.HejriShamsiDateTime">
+      <Item value="ToLongDateString`0" priority="26" />
+      <Item value="Day" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PayaBL.Classes.Role">
+      <Item value="RoleID" priority="321" />
+      <Item value="RoleKey" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PayaBL.Classes.AuthRoleBased">
+      <Item value="AuthID" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PayaDB.TBannedIpAddress">
+      <Item value="Id" priority="107" />
+      <Item value="IpAddress" priority="26" />
+      <Item value="Comment" priority="26" />
+      <Item value="CreatedOn" priority="26" />
+      <Item value="UpdatedOn" priority="26" />
+      <Item value="id" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PayaDB.TBannedIpAddress">
+      <Item value="Add`0" priority="26" />
+      <Item value="Delete`0" priority="26" />
+      <Item value="Update`0" priority="26" />
+      <Item value="GetAll`0" priority="53" />
+      <Item value="GetSingleByID`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PayaDB.TBannedIpNetwork">
+      <Item value="StartIpAddress" priority="49" />
+      <Item value="EndIpAddress" priority="53" />
+      <Item value="IpException" priority="53" />
+      <Item value="Comment" priority="53" />
+      <Item value="UpdatedOn" priority="53" />
+      <Item value="CreatedOn" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PayaDB.TBannedIpNetwork">
+      <Item value="Delete`0" priority="26" />
+      <Item value="Update`0" priority="26" />
+      <Item value="GetSingleByID`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PayaDB.TLocalResource">
+      <Item value="ResourceValue" priority="49" />
+      <Item value="LanguageID" priority="76" />
+      <Item value="ResourceName" priority="53" />
+      <Item value="Id" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PayaDB.TModuleRole">
+      <Item value="ModuleID" priority="53" />
+      <Item value="AuthID" priority="49" />
+      <Item value="RoleID" priority="49" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PayaBL.Classes.AuthObjBased">
+      <Item value="AuthKey" priority="80" />
+      <Item value="AuthID" priority="26" />
+      <Item value="ModuleDefID" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PayaDB.TObjUser">
+      <Item value="Delete`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PayaDB.TObjUser">
+      <Item value="ObjID" priority="50" />
+      <Item value="userID" priority="53" />
+      <Item value="AuthID" priority="81" />
+      <Item value="UserID" priority="53" />
+      <Item value="objID" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PayaBL.Classes.Portal">
+      <Item value="PortalID" priority="27" />
+      <Item value="PortalName" priority="26" />
+      <Item value="PortalPath" priority="26" />
+      <Item value="Settings" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PayaDB.TModuleDef">
+      <Item value="Enabled" priority="54" />
+      <Item value="TModuleDefInPortals" priority="107" />
+      <Item value="AdminType" priority="26" />
+      <Item value="ModuleDefID" priority="53" />
+      <Item value="tModuleDefInPortal" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PayaBL.Common.PayaTools">
+      <Item value="CurrentCulture" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Collections.Generic.List`1">
+      <Item value="Enumerator`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BannedIpAddress">
+      <Item value="Id" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PayaDB.TUserCustomProfile">
+      <Item value="UserID" priority="26" />
+      <Item value="Equals`0" priority="26" />
+      <Item value="Address" priority="26" />
+      <Item value="BirthDate" priority="26" />
+      <Item value="CertificateNumber" priority="53" />
+      <Item value="FailedPasswordAttemptCount" priority="26" />
+      <Item value="FailedPasswordAttemptStart" priority="26" />
+      <Item value="HasChangedPassword" priority="26" />
+      <Item value="LastLockoutDate" priority="26" />
+      <Item value="LastLoginDate" priority="26" />
+      <Item value="LastPasswordChangeDate" priority="26" />
+      <Item value="Mobile" priority="26" />
+      <Item value="NationalNumber" priority="26" />
+      <Item value="Picture" priority="26" />
+      <Item value="Sex" priority="26" />
+      <Item value="Tel" priority="26" />
+      <Item value="ZipCode" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PayaDB.TRegisterReq">
+      <Item value="ReqID" priority="107" />
+      <Item value="Email" priority="53" />
+      <Item value="FirstName" priority="53" />
+      <Item value="LastName" priority="53" />
+      <Item value="PhoneNo" priority="26" />
+      <Item value="UserName" priority="49" />
+      <Item value="PortalID" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PayaBL.Classes.ObjRole">
+      <Item value="GetAll`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PayaDB.TAuthObjBased">
+      <Item value="GetModuleAuthObjBased`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.Web.UI.RadGrid">
+      <Item value="Culture" priority="107" />
+      <Item value="FilterItemStyle" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Globalization.CultureInfo">
+      <Item value="Name" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpResponse">
+      <Item value="Write`0" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PayaBL.Classes.LocalResource">
+      <Item value="GetResourceValue`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.Web.UI.RadMultiPage">
+      <Item value="SelectedIndex" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TextBox">
+      <Item value="Text" priority="81" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.Web.UI.RadNumericTextBox">
+      <Item value="Text" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.CheckBox">
+      <Item value="Checked" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
+      <Item value="Where`1" priority="134" />
+      <Item value="Select`2" priority="27" />
+      <Item value="Single`1" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PayaDB.TModuleDefInPortal">
+      <Item value="PortalID" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="ToString`0" priority="53" />
+      <Item value="ToLower`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="26" />
+      <Item value="IsNullOrEmpty`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="TryParse`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PayaBL.Classes.ModuleDefSetting">
+      <Item value="SettingID" priority="26" />
+      <Item value="SettingName" priority="26" />
+      <Item value="SettingValues" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PayaDB.TModuleDefSetting">
+      <Item value="GetAll`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PayaDB.TModuleDefInPortal">
+      <Item value="Delete`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PayaBL.Common.PortalCach.Caching">
+      <Item value="GetCachedStyleXml`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="JavaScriptSpecificContext">
+      <Item value="debugger" priority="5" />
+      <Item value="$" priority="29" />
+      <Item value="this" priority="10" />
+    </ItemStatistics>
+    <ItemStatistics item="JavaScriptSpecificContextQualified">
+      <Item value="post" priority="8" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">True</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>
