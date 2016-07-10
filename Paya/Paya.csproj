@@ -1,0 +1,846 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0D9D502A-13F0-4C18-AFE4-1835C491DDCB}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Paya</RootNamespace>
+    <AssemblyName>Paya</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PersianDatePickup, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\PersianDatePickup.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Telerik.Web.UI, Version=2010.2.713.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="UrlRewritingNet.UrlRewriter, Version=2.0.60829.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\UrlRewritingNet.UrlRewriter.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AccessDenied.aspx" />
+    <Content Include="Admin\BlackList.ascx" />
+    <Content Include="Admin\ContentsManager.ascx" />
+    <Content Include="Admin\ModuleInfo.ascx" />
+    <Content Include="Admin\ModuleRoles.ascx" />
+    <Content Include="Admin\ModuleSettings.ascx" />
+    <Content Include="Admin\ObjRoles.ascx" />
+    <Content Include="Admin\ObjUsers.ascx" />
+    <Content Include="Admin\PortalsManager.ascx" />
+    <Content Include="Admin\RolesManager.ascx" />
+    <Content Include="Admin\TabsManager.ascx" />
+    <Content Include="Admin\Tabs\Modules.ascx" />
+    <Content Include="Admin\Tabs\ModulesManagment.ascx" />
+    <Content Include="Admin\Tabs\Permission.ascx" />
+    <Content Include="Admin\Tabs\Properties.ascx" />
+    <Content Include="Admin\Tabs\TemplateTheme.ascx" />
+    <Content Include="Admin\UsersManager.ascx" />
+    <Content Include="bin\Paya.dll" />
+    <Content Include="bin\Paya.Modules.Menu.dll" />
+    <Content Include="bin\Paya.Modules.Menu.pdb" />
+    <Content Include="bin\Paya.pdb" />
+    <Content Include="bin\PayaBL.dll" />
+    <Content Include="bin\PayaBL.pdb" />
+    <Content Include="bin\PayaDB.dll" />
+    <Content Include="bin\PayaDB.pdb" />
+    <Content Include="bin\Telerik.OpenAccess.35.Extensions.dll" />
+    <Content Include="bin\Telerik.Web.UI.dll" />
+    <Content Include="Captcha\CaptchaControl.ascx" />
+    <Content Include="Captcha\CaptchaHandler.aspx" />
+    <Content Include="Errors\BannedAddress.htm" />
+    <Content Include="Errors\FileNotFound.htm" />
+    <Content Include="Errors\GenericErrorPage.htm" />
+    <Content Include="Errors\licenseinvalid..htm" />
+    <Content Include="Errors\NoAccess.htm" />
+    <Content Include="Errors\NoPortal.htm" />
+    <Content Include="Errors\PortalException.htm" />
+    <Content Include="Footer.ascx" />
+    <Content Include="Header.ascx" />
+    <Content Include="Images\add.png" />
+    <Content Include="Images\add_page.png" />
+    <Content Include="Images\Brows.png" />
+    <Content Include="Images\copy_paste.png" />
+    <Content Include="Images\delete.png" />
+    <Content Include="Images\delete_page.png" />
+    <Content Include="Images\down.png" />
+    <Content Include="Images\edit.png" />
+    <Content Include="Images\floppy_disk_32.ico" />
+    <Content Include="Images\home.gif" />
+    <Content Include="Images\lock.png" />
+    <Content Include="Images\lockPage.png" />
+    <Content Include="Images\lock_off.png" />
+    <Content Include="Images\ModuleDef.png" />
+    <Content Include="Images\NoPic.jpg" />
+    <Content Include="Images\pages.png" />
+    <Content Include="Images\page_down.png" />
+    <Content Include="Images\page_process.png" />
+    <Content Include="Images\page_up.png" />
+    <Content Include="Images\PayaLogo.png" />
+    <Content Include="Images\printer.png" />
+    <Content Include="Images\process.png" />
+    <Content Include="Images\rdBottomLeft.gif" />
+    <Content Include="Images\rdBottomRight.gif" />
+    <Content Include="Images\rdTop.gif" />
+    <Content Include="Images\rdTopCenter.gif" />
+    <Content Include="Images\rdTopLeft.gif" />
+    <Content Include="Images\rdTopRight.gif" />
+    <Content Include="Images\rename.gif" />
+    <Content Include="Images\template.gif" />
+    <Content Include="Images\templatesAll.gif" />
+    <Content Include="Images\tools.png" />
+    <Content Include="Images\trash_can.png" />
+    <Content Include="Images\up.png" />
+    <Content Include="Images\warning.png" />
+    <Content Include="Menu\FooterMenu.ascx" />
+    <Content Include="Menu\HorizontalMenu.ascx" />
+    <Content Include="Modules\CustomProfile\UserProfile.ascx" />
+    <Content Include="Modules\ForgetPassword.ascx" />
+    <Content Include="Modules\SignIn.ascx" />
+    <Content Include="Modules\SignOut.ascx" />
+    <Content Include="Modules\SignUp.ascx" />
+    <Content Include="PageManagment.aspx" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="UI\ModuleLayouts\DesignedLayout.ascx" />
+    <Content Include="UI\ModuleLayouts\ModuleLayout.ascx" />
+    <Content Include="UI\ShareCSS\EditorContentArea.css" />
+    <Content Include="UI\ShareCSS\RadControlFont.css" />
+    <Content Include="UI\ShareCSS\RadDockModule.css" />
+    <Content Include="UI\Styles\Basic-Black\Footer\Footer.ascx" />
+    <Content Include="UI\Styles\Basic-Black\Header\Header.ascx" />
+    <Content Include="UI\Styles\Basic-Black\images\bg-body.jpg" />
+    <Content Include="UI\Styles\Basic-Black\images\bg_footer.jpg" />
+    <Content Include="UI\Styles\Basic-Black\images\bg_html.jpg" />
+    <Content Include="UI\Styles\Basic-Black\images\bg_tl.gif" />
+    <Content Include="UI\Styles\Basic-Black\images\bg_tr.gif" />
+    <Content Include="UI\Styles\Basic-Black\images\footer_c_lb.gif" />
+    <Content Include="UI\Styles\Basic-Black\images\footer_c_rb.gif" />
+    <Content Include="UI\Styles\Basic-Black\images\header.png" />
+    <Content Include="UI\Styles\Basic-Black\images\HMenu\bg_hmenu.gif" />
+    <Content Include="UI\Styles\Basic-Black\images\HMenu\bg_hmenu_hover.gif" />
+    <Content Include="UI\Styles\Basic-Black\images\HorzMenuOver.gif" />
+    <Content Include="UI\Styles\Basic-Black\images\MainMenu\arrow.gif" />
+    <Content Include="UI\Styles\Basic-Black\images\MainMenu\bg_header.gif" />
+    <Content Include="UI\Styles\Basic-Black\images\MainMenu\bg_item.gif" />
+    <Content Include="UI\Styles\Basic-Black\images\MainMenu\bg_item_hover.gif" />
+    <Content Include="UI\Styles\Basic-Black\images\ModuleAlt\bg_mat.gif" />
+    <Content Include="UI\Styles\Basic-Black\images\ModuleAlt\footer_left.gif" />
+    <Content Include="UI\Styles\Basic-Black\images\ModuleAlt\footer_right.gif" />
+    <Content Include="UI\Styles\Basic-Black\images\ModuleAlt\ma_flash.gif" />
+    <Content Include="UI\Styles\Basic-Black\images\Module\bg_mt.gif" />
+    <Content Include="UI\Styles\Basic-Black\images\Module\footer_left.gif" />
+    <Content Include="UI\Styles\Basic-Black\images\Module\footer_right.gif" />
+    <Content Include="UI\Styles\Basic-Black\images\Module\m_flash.gif" />
+    <Content Include="UI\Styles\Basic-Black\ModuleLayouts\LayoutControl.ascx" />
+    <Content Include="UI\Styles\Basic-Black\ModuleLayouts\LayoutControl1.ascx" />
+    <Content Include="UI\Styles\Basic-Black\ModuleLayouts\LayoutControl2.ascx" />
+    <Content Include="UI\Styles\Basic-Black\ModuleLayouts\LayoutControl3.ascx" />
+    <Content Include="UI\Styles\Basic-Black\Setting.xml" />
+    <Content Include="UI\Styles\Basic-Black\Templates\Default\Template.ascx" />
+    <Content Include="UI\Styles\Basic-Black\Templates\Default\TemplateEdit.ascx" />
+    <Content Include="UI\Styles\Basic-Black\Templates\OneColumn\Template.ascx" />
+    <Content Include="UI\Styles\Basic-Black\Templates\OneColumn\TemplateEdit.ascx" />
+    <Content Include="UI\Styles\Basic-Black\Templates\PageTemplate.ascx" />
+    <Content Include="UI\Styles\Basic-Black\Themes\Default\c_config.js" />
+    <Content Include="UI\Styles\Basic-Black\Themes\Default\Footer.css" />
+    <Content Include="UI\Styles\Basic-Black\Themes\Default\FooterMenu.css" />
+    <Content Include="UI\Styles\Basic-Black\Themes\Default\Header.css" />
+    <Content Include="UI\Styles\Basic-Black\Themes\Default\HorzMenu.css" />
+    <Content Include="UI\Styles\Basic-Black\Themes\Default\MainMenu.css" />
+    <Content Include="UI\Styles\Basic-Black\Themes\Default\Module.css" />
+    <Content Include="UI\Styles\Basic-Black\Themes\Default\ModuleAlt.css" />
+    <Content Include="UI\Styles\Basic-Black\Themes\Default\ModuleAlt2.css" />
+    <Content Include="UI\Styles\Basic-Black\Themes\Default\ModuleNoBorder.css" />
+    <Content Include="UI\Styles\Basic-Black\Themes\Default\Style.css" />
+    <Content Include="UI\Styles\Basic-Black\Themes\Default\VerticalMenu.css" />
+    <Content Include="UI\Styles\Basic-Brown\Footer\Footer.ascx" />
+    <Content Include="UI\Styles\Basic-Brown\Header\Header.ascx" />
+    <Content Include="UI\Styles\Basic-Brown\images\bg-body.jpg" />
+    <Content Include="UI\Styles\Basic-Brown\images\bg_footer.jpg" />
+    <Content Include="UI\Styles\Basic-Brown\images\bg_html.jpg" />
+    <Content Include="UI\Styles\Basic-Brown\images\bg_tl.gif" />
+    <Content Include="UI\Styles\Basic-Brown\images\bg_tr.gif" />
+    <Content Include="UI\Styles\Basic-Brown\images\footer_c_lb.gif" />
+    <Content Include="UI\Styles\Basic-Brown\images\footer_c_rb.gif" />
+    <Content Include="UI\Styles\Basic-Brown\images\header.png" />
+    <Content Include="UI\Styles\Basic-Brown\images\HMenu\bg_hmenu.gif" />
+    <Content Include="UI\Styles\Basic-Brown\images\HMenu\bg_hmenu_hover.gif" />
+    <Content Include="UI\Styles\Basic-Brown\images\HorzMenuOver.gif" />
+    <Content Include="UI\Styles\Basic-Brown\images\MainMenu\arrow.gif" />
+    <Content Include="UI\Styles\Basic-Brown\images\MainMenu\bg_header.gif" />
+    <Content Include="UI\Styles\Basic-Brown\images\MainMenu\bg_item.gif" />
+    <Content Include="UI\Styles\Basic-Brown\images\MainMenu\bg_item_hover.gif" />
+    <Content Include="UI\Styles\Basic-Brown\images\ModuleAlt\bg_mat.gif" />
+    <Content Include="UI\Styles\Basic-Brown\images\ModuleAlt\footer_left.gif" />
+    <Content Include="UI\Styles\Basic-Brown\images\ModuleAlt\footer_right.gif" />
+    <Content Include="UI\Styles\Basic-Brown\images\ModuleAlt\ma_flash.gif" />
+    <Content Include="UI\Styles\Basic-Brown\images\Module\bg_mt.gif" />
+    <Content Include="UI\Styles\Basic-Brown\images\Module\footer_left.gif" />
+    <Content Include="UI\Styles\Basic-Brown\images\Module\footer_right.gif" />
+    <Content Include="UI\Styles\Basic-Brown\images\Module\m_flash.gif" />
+    <Content Include="UI\Styles\Basic-Brown\ModuleLayouts\LayoutControl.ascx" />
+    <Content Include="UI\Styles\Basic-Brown\ModuleLayouts\LayoutControl1.ascx" />
+    <Content Include="UI\Styles\Basic-Brown\ModuleLayouts\LayoutControl2.ascx" />
+    <Content Include="UI\Styles\Basic-Brown\ModuleLayouts\LayoutControl3.ascx" />
+    <Content Include="UI\Styles\Basic-Brown\Setting.xml" />
+    <Content Include="UI\Styles\Basic-Brown\Templates\Default\Template.ascx" />
+    <Content Include="UI\Styles\Basic-Brown\Templates\Default\TemplateEdit.ascx" />
+    <Content Include="UI\Styles\Basic-Brown\Templates\OneColumn\Template.ascx" />
+    <Content Include="UI\Styles\Basic-Brown\Templates\OneColumn\TemplateEdit.ascx" />
+    <Content Include="UI\Styles\Basic-Brown\Templates\PageTemplate.ascx" />
+    <Content Include="UI\Styles\Basic-Brown\Themes\Default\c_config.js" />
+    <Content Include="UI\Styles\Basic-Brown\Themes\Default\Footer.css" />
+    <Content Include="UI\Styles\Basic-Brown\Themes\Default\FooterMenu.css" />
+    <Content Include="UI\Styles\Basic-Brown\Themes\Default\Header.css" />
+    <Content Include="UI\Styles\Basic-Brown\Themes\Default\HorzMenu.css" />
+    <Content Include="UI\Styles\Basic-Brown\Themes\Default\MainMenu.css" />
+    <Content Include="UI\Styles\Basic-Brown\Themes\Default\Module.css" />
+    <Content Include="UI\Styles\Basic-Brown\Themes\Default\ModuleAlt.css" />
+    <Content Include="UI\Styles\Basic-Brown\Themes\Default\ModuleAlt2.css" />
+    <Content Include="UI\Styles\Basic-Brown\Themes\Default\ModuleNoBorder.css" />
+    <Content Include="UI\Styles\Basic-Brown\Themes\Default\Style.css" />
+    <Content Include="UI\Styles\Basic-Brown\Themes\Default\VerticalMenu.css" />
+    <Content Include="UI\Styles\Basic-Green\Footer\Footer.ascx" />
+    <Content Include="UI\Styles\Basic-Green\Header\Header.ascx" />
+    <Content Include="UI\Styles\Basic-Green\images\bg-body.jpg" />
+    <Content Include="UI\Styles\Basic-Green\images\bg_footer.jpg" />
+    <Content Include="UI\Styles\Basic-Green\images\bg_html.jpg" />
+    <Content Include="UI\Styles\Basic-Green\images\bg_tl.gif" />
+    <Content Include="UI\Styles\Basic-Green\images\bg_tr.gif" />
+    <Content Include="UI\Styles\Basic-Green\images\footer_c_lb.gif" />
+    <Content Include="UI\Styles\Basic-Green\images\footer_c_rb.gif" />
+    <Content Include="UI\Styles\Basic-Green\images\header.png" />
+    <Content Include="UI\Styles\Basic-Green\images\HMenu\bg_hmenu.gif" />
+    <Content Include="UI\Styles\Basic-Green\images\HMenu\bg_hmenu_hover.gif" />
+    <Content Include="UI\Styles\Basic-Green\images\HorzMenuOver.gif" />
+    <Content Include="UI\Styles\Basic-Green\images\MainMenu\arrow.gif" />
+    <Content Include="UI\Styles\Basic-Green\images\MainMenu\bg_header.gif" />
+    <Content Include="UI\Styles\Basic-Green\images\MainMenu\bg_item.gif" />
+    <Content Include="UI\Styles\Basic-Green\images\MainMenu\bg_item_hover.gif" />
+    <Content Include="UI\Styles\Basic-Green\images\ModuleAlt\bg_mat.gif" />
+    <Content Include="UI\Styles\Basic-Green\images\ModuleAlt\footer_left.gif" />
+    <Content Include="UI\Styles\Basic-Green\images\ModuleAlt\footer_right.gif" />
+    <Content Include="UI\Styles\Basic-Green\images\ModuleAlt\ma_flash.gif" />
+    <Content Include="UI\Styles\Basic-Green\images\Module\bg_mt.gif" />
+    <Content Include="UI\Styles\Basic-Green\images\Module\footer_left.gif" />
+    <Content Include="UI\Styles\Basic-Green\images\Module\footer_right.gif" />
+    <Content Include="UI\Styles\Basic-Green\images\Module\m_flash.gif" />
+    <Content Include="UI\Styles\Basic-Green\ModuleLayouts\LayoutControl.ascx" />
+    <Content Include="UI\Styles\Basic-Green\ModuleLayouts\LayoutControl1.ascx" />
+    <Content Include="UI\Styles\Basic-Green\ModuleLayouts\LayoutControl2.ascx" />
+    <Content Include="UI\Styles\Basic-Green\ModuleLayouts\LayoutControl3.ascx" />
+    <Content Include="UI\Styles\Basic-Green\Setting.xml" />
+    <Content Include="UI\Styles\Basic-Green\Templates\Default\Template.ascx" />
+    <Content Include="UI\Styles\Basic-Green\Templates\Default\TemplateEdit.ascx" />
+    <Content Include="UI\Styles\Basic-Green\Templates\OneColumn\Template.ascx" />
+    <Content Include="UI\Styles\Basic-Green\Templates\OneColumn\TemplateEdit.ascx" />
+    <Content Include="UI\Styles\Basic-Green\Templates\PageTemplate.ascx" />
+    <Content Include="UI\Styles\Basic-Green\Themes\Default\c_config.js" />
+    <Content Include="UI\Styles\Basic-Green\Themes\Default\Footer.css" />
+    <Content Include="UI\Styles\Basic-Green\Themes\Default\FooterMenu.css" />
+    <Content Include="UI\Styles\Basic-Green\Themes\Default\Header.css" />
+    <Content Include="UI\Styles\Basic-Green\Themes\Default\HorzMenu.css" />
+    <Content Include="UI\Styles\Basic-Green\Themes\Default\MainMenu.css" />
+    <Content Include="UI\Styles\Basic-Green\Themes\Default\Module.css" />
+    <Content Include="UI\Styles\Basic-Green\Themes\Default\ModuleAlt.css" />
+    <Content Include="UI\Styles\Basic-Green\Themes\Default\ModuleAlt2.css" />
+    <Content Include="UI\Styles\Basic-Green\Themes\Default\ModuleNoBorder.css" />
+    <Content Include="UI\Styles\Basic-Green\Themes\Default\Style.css" />
+    <Content Include="UI\Styles\Basic-Green\Themes\Default\VerticalMenu.css" />
+    <Content Include="UI\Styles\Basic-white\Footer\Footer.ascx" />
+    <Content Include="UI\Styles\Basic-white\Header\Header.ascx" />
+    <Content Include="UI\Styles\Basic-white\images\bg-body.jpg" />
+    <Content Include="UI\Styles\Basic-white\images\bg_footer.jpg" />
+    <Content Include="UI\Styles\Basic-white\images\bg_html.jpg" />
+    <Content Include="UI\Styles\Basic-white\images\bg_tl.gif" />
+    <Content Include="UI\Styles\Basic-white\images\bg_tr.gif" />
+    <Content Include="UI\Styles\Basic-white\images\footer_c_lb.gif" />
+    <Content Include="UI\Styles\Basic-white\images\footer_c_rb.gif" />
+    <Content Include="UI\Styles\Basic-white\images\header.png" />
+    <Content Include="UI\Styles\Basic-white\images\HMenu\bg_hmenu.gif" />
+    <Content Include="UI\Styles\Basic-white\images\HMenu\bg_hmenu_hover.gif" />
+    <Content Include="UI\Styles\Basic-white\images\HorzMenuOver.gif" />
+    <Content Include="UI\Styles\Basic-white\images\MainMenu\arrow.gif" />
+    <Content Include="UI\Styles\Basic-white\images\MainMenu\bg_header.gif" />
+    <Content Include="UI\Styles\Basic-white\images\MainMenu\bg_item.gif" />
+    <Content Include="UI\Styles\Basic-white\images\MainMenu\bg_item_hover.gif" />
+    <Content Include="UI\Styles\Basic-white\images\ModuleAlt\bg_mat.gif" />
+    <Content Include="UI\Styles\Basic-white\images\ModuleAlt\footer_left.gif" />
+    <Content Include="UI\Styles\Basic-white\images\ModuleAlt\footer_right.gif" />
+    <Content Include="UI\Styles\Basic-white\images\ModuleAlt\ma_flash.gif" />
+    <Content Include="UI\Styles\Basic-white\images\Module\bg_mt.gif" />
+    <Content Include="UI\Styles\Basic-white\images\Module\footer_left.gif" />
+    <Content Include="UI\Styles\Basic-white\images\Module\footer_right.gif" />
+    <Content Include="UI\Styles\Basic-white\images\Module\m_flash.gif" />
+    <Content Include="UI\Styles\Basic-white\ModuleLayouts\LayoutControl.ascx" />
+    <Content Include="UI\Styles\Basic-white\ModuleLayouts\LayoutControl1.ascx" />
+    <Content Include="UI\Styles\Basic-white\ModuleLayouts\LayoutControl2.ascx" />
+    <Content Include="UI\Styles\Basic-white\ModuleLayouts\LayoutControl3.ascx" />
+    <Content Include="UI\Styles\Basic-white\Setting.xml" />
+    <Content Include="UI\Styles\Basic-white\Templates\Default\Template.ascx" />
+    <Content Include="UI\Styles\Basic-white\Templates\Default\TemplateEdit.ascx" />
+    <Content Include="UI\Styles\Basic-white\Templates\OneColumn\Template.ascx" />
+    <Content Include="UI\Styles\Basic-white\Templates\OneColumn\TemplateEdit.ascx" />
+    <Content Include="UI\Styles\Basic-white\Templates\PageTemplate.ascx" />
+    <Content Include="UI\Styles\Basic-white\Themes\Default\c_config.js" />
+    <Content Include="UI\Styles\Basic-white\Themes\Default\Footer.css" />
+    <Content Include="UI\Styles\Basic-white\Themes\Default\FooterMenu.css" />
+    <Content Include="UI\Styles\Basic-white\Themes\Default\Header.css" />
+    <Content Include="UI\Styles\Basic-white\Themes\Default\HorzMenu.css" />
+    <Content Include="UI\Styles\Basic-white\Themes\Default\MainMenu.css" />
+    <Content Include="UI\Styles\Basic-white\Themes\Default\Module.css" />
+    <Content Include="UI\Styles\Basic-white\Themes\Default\ModuleAlt.css" />
+    <Content Include="UI\Styles\Basic-white\Themes\Default\ModuleAlt2.css" />
+    <Content Include="UI\Styles\Basic-white\Themes\Default\ModuleNoBorder.css" />
+    <Content Include="UI\Styles\Basic-white\Themes\Default\Style.css" />
+    <Content Include="UI\Styles\Basic-white\Themes\Default\VerticalMenu.css" />
+    <Content Include="UI\Styles\Basic-Yellow\images\bg-body.jpg" />
+    <Content Include="UI\Styles\Basic-Yellow\images\bg_footer.jpg" />
+    <Content Include="UI\Styles\Basic-Yellow\images\bg_html.jpg" />
+    <Content Include="UI\Styles\Basic-Yellow\images\bg_tl.gif" />
+    <Content Include="UI\Styles\Basic-Yellow\images\bg_tr.gif" />
+    <Content Include="UI\Styles\Basic-Yellow\images\footer_c_lb.gif" />
+    <Content Include="UI\Styles\Basic-Yellow\images\footer_c_rb.gif" />
+    <Content Include="UI\Styles\Basic-Yellow\images\header.png" />
+    <Content Include="UI\Styles\Basic-Yellow\images\HMenu\bg_hmenu.gif" />
+    <Content Include="UI\Styles\Basic-Yellow\images\HMenu\bg_hmenu_hover.gif" />
+    <Content Include="UI\Styles\Basic-Yellow\images\HorzMenuOver.gif" />
+    <Content Include="UI\Styles\Basic-Yellow\images\MainMenu\arrow.gif" />
+    <Content Include="UI\Styles\Basic-Yellow\images\MainMenu\bg_header.gif" />
+    <Content Include="UI\Styles\Basic-Yellow\images\MainMenu\bg_item.gif" />
+    <Content Include="UI\Styles\Basic-Yellow\images\MainMenu\bg_item_hover.gif" />
+    <Content Include="UI\Styles\Basic-Yellow\images\ModuleAlt\bg_mat.gif" />
+    <Content Include="UI\Styles\Basic-Yellow\images\ModuleAlt\footer_left.gif" />
+    <Content Include="UI\Styles\Basic-Yellow\images\ModuleAlt\footer_right.gif" />
+    <Content Include="UI\Styles\Basic-Yellow\images\ModuleAlt\ma_flash.gif" />
+    <Content Include="UI\Styles\Basic-Yellow\images\Module\bg_mt.gif" />
+    <Content Include="UI\Styles\Basic-Yellow\images\Module\footer_left.gif" />
+    <Content Include="UI\Styles\Basic-Yellow\images\Module\footer_right.gif" />
+    <Content Include="UI\Styles\Basic-Yellow\images\Module\m_flash.gif" />
+    <Content Include="UI\Styles\Default\Footer\Footer.ascx" />
+    <Content Include="UI\Styles\Default\Header\Header.ascx" />
+    <Content Include="UI\Styles\Default\images\bg-body.jpg" />
+    <Content Include="UI\Styles\Default\images\bg_footer.jpg" />
+    <Content Include="UI\Styles\Default\images\bg_html.jpg" />
+    <Content Include="UI\Styles\Default\images\bg_tl.gif" />
+    <Content Include="UI\Styles\Default\images\bg_tr.gif" />
+    <Content Include="UI\Styles\Default\images\footer_c_lb.gif" />
+    <Content Include="UI\Styles\Default\images\footer_c_rb.gif" />
+    <Content Include="UI\Styles\Default\images\header.png" />
+    <Content Include="UI\Styles\Default\images\HMenu\bg_hmenu.gif" />
+    <Content Include="UI\Styles\Default\images\HMenu\bg_hmenu_hover.gif" />
+    <Content Include="UI\Styles\Default\images\HorzMenuOver.gif" />
+    <Content Include="UI\Styles\Default\images\MainMenu\arrow.gif" />
+    <Content Include="UI\Styles\Default\images\MainMenu\bg_header.gif" />
+    <Content Include="UI\Styles\Default\images\MainMenu\bg_item.gif" />
+    <Content Include="UI\Styles\Default\images\MainMenu\bg_item_hover.gif" />
+    <Content Include="UI\Styles\Default\images\ModuleAlt\bg_mat.gif" />
+    <Content Include="UI\Styles\Default\images\ModuleAlt\footer_left.gif" />
+    <Content Include="UI\Styles\Default\images\ModuleAlt\footer_right.gif" />
+    <Content Include="UI\Styles\Default\images\ModuleAlt\ma_flash.gif" />
+    <Content Include="UI\Styles\Default\images\Module\bg_mt.gif" />
+    <Content Include="UI\Styles\Default\images\Module\footer_left.gif" />
+    <Content Include="UI\Styles\Default\images\Module\footer_right.gif" />
+    <Content Include="UI\Styles\Default\images\Module\m_flash.gif" />
+    <Content Include="UI\Styles\Default\ModuleLayouts\LayoutControl.ascx" />
+    <Content Include="UI\Styles\Default\ModuleLayouts\LayoutControl1.ascx" />
+    <Content Include="UI\Styles\Default\ModuleLayouts\LayoutControl2.ascx" />
+    <Content Include="UI\Styles\Default\ModuleLayouts\LayoutControl3.ascx" />
+    <Content Include="UI\Styles\Default\Setting.xml" />
+    <Content Include="UI\Styles\Default\Templates\Default\Template.ascx" />
+    <Content Include="UI\Styles\Default\Templates\Default\TemplateEdit.ascx" />
+    <Content Include="UI\Styles\Default\Templates\OneColumn\Template.ascx" />
+    <Content Include="UI\Styles\Default\Templates\OneColumn\TemplateEdit.ascx" />
+    <Content Include="UI\Styles\Default\Templates\PageTemplate.ascx" />
+    <Content Include="UI\Styles\Default\Themes\Default0\c_config.js" />
+    <Content Include="UI\Styles\Default\Themes\Default0\Footer.css" />
+    <Content Include="UI\Styles\Default\Themes\Default0\FooterMenu.css" />
+    <Content Include="UI\Styles\Default\Themes\Default0\Header.css" />
+    <Content Include="UI\Styles\Default\Themes\Default0\HorzMenu.css" />
+    <Content Include="UI\Styles\Default\Themes\Default0\MainMenu.css" />
+    <Content Include="UI\Styles\Default\Themes\Default0\Module.css" />
+    <Content Include="UI\Styles\Default\Themes\Default0\ModuleAlt.css" />
+    <Content Include="UI\Styles\Default\Themes\Default0\ModuleAlt2.css" />
+    <Content Include="UI\Styles\Default\Themes\Default0\ModuleNoBorder.css" />
+    <Content Include="UI\Styles\Default\Themes\Default0\Style.css" />
+    <Content Include="UI\Styles\Default\Themes\Default\c_config.js" />
+    <Content Include="UI\Styles\Default\Themes\Default\Footer.css" />
+    <Content Include="UI\Styles\Default\Themes\Default\FooterMenu.css" />
+    <Content Include="UI\Styles\Default\Themes\Default\Header.css" />
+    <Content Include="UI\Styles\Default\Themes\Default\HorzMenu.css" />
+    <Content Include="UI\Styles\Default\Themes\Default\MainMenu.css" />
+    <Content Include="UI\Styles\Default\Themes\Default\Module.css" />
+    <Content Include="UI\Styles\Default\Themes\Default\ModuleAlt.css" />
+    <Content Include="UI\Styles\Default\Themes\Default\ModuleAlt2.css" />
+    <Content Include="UI\Styles\Default\Themes\Default\ModuleNoBorder.css" />
+    <Content Include="UI\Styles\Default\Themes\Default\Style.css" />
+    <Content Include="UI\Styles\Default\Themes\Default\VerticalMenu.css" />
+    <Content Include="UI\Styles\Simple2\Footer\Footer.ascx" />
+    <Content Include="UI\Styles\Simple2\Header\Header.ascx" />
+    <Content Include="UI\Styles\Simple2\images\templatemo_body.jpg" />
+    <Content Include="UI\Styles\Simple2\images\templatemo_content.jpg" />
+    <Content Include="UI\Styles\Simple2\images\templatemo_content_top.jpg" />
+    <Content Include="UI\Styles\Simple2\images\templatemo_divider.png" />
+    <Content Include="UI\Styles\Simple2\images\templatemo_footer.jpg" />
+    <Content Include="UI\Styles\Simple2\images\templatemo_header.jpg" />
+    <Content Include="UI\Styles\Simple2\images\templatemo_header.png" />
+    <Content Include="UI\Styles\Simple2\images\templatemo_list.png" />
+    <Content Include="UI\Styles\Simple2\images\templatemo_logo.png" />
+    <Content Include="UI\Styles\Simple2\images\templatemo_menu.jpg" />
+    <Content Include="UI\Styles\Simple2\images\templatemo_menu_hover.jpg" />
+    <Content Include="UI\Styles\Simple2\ModuleLayouts\LayoutControl.ascx" />
+    <Content Include="UI\Styles\Simple2\ModuleLayouts\LayoutControl1.ascx" />
+    <Content Include="UI\Styles\Simple2\ModuleLayouts\LayoutControl2.ascx" />
+    <Content Include="UI\Styles\Simple2\ModuleLayouts\LayoutControl3.ascx" />
+    <Content Include="UI\Styles\Simple2\Setting.xml" />
+    <Content Include="UI\Styles\Simple2\Templates\Default\Template.ascx" />
+    <Content Include="UI\Styles\Simple2\Templates\Default\TemplateEdit.ascx" />
+    <Content Include="UI\Styles\Simple2\Templates\OneColumn\Template.ascx" />
+    <Content Include="UI\Styles\Simple2\Templates\OneColumn\TemplateEdit.ascx" />
+    <Content Include="UI\Styles\Simple2\Templates\PageTemplate.ascx" />
+    <Content Include="UI\Styles\Simple2\Themes\Default\c_config.js" />
+    <Content Include="UI\Styles\Simple2\Themes\Default\Footer.css" />
+    <Content Include="UI\Styles\Simple2\Themes\Default\FooterMenu.css" />
+    <Content Include="UI\Styles\Simple2\Themes\Default\Header.css" />
+    <Content Include="UI\Styles\Simple2\Themes\Default\HorzMenu.css" />
+    <Content Include="UI\Styles\Simple2\Themes\Default\MainMenu.css" />
+    <Content Include="UI\Styles\Simple2\Themes\Default\Module.css" />
+    <Content Include="UI\Styles\Simple2\Themes\Default\ModuleAlt.css" />
+    <Content Include="UI\Styles\Simple2\Themes\Default\ModuleAlt2.css" />
+    <Content Include="UI\Styles\Simple2\Themes\Default\ModuleNoBorder.css" />
+    <Content Include="UI\Styles\Simple2\Themes\Default\Style.css" />
+    <Content Include="UI\Styles\Simple2\Themes\Default\VerticalMenu.css" />
+    <Content Include="UI\Styles\Simple\Footer\Footer.ascx" />
+    <Content Include="UI\Styles\Simple\Header\Header.ascx" />
+    <Content Include="UI\Styles\Simple\images\bg.gif" />
+    <Content Include="UI\Styles\Simple\images\redbg.gif" />
+    <Content Include="UI\Styles\Simple\ModuleLayouts\LayoutControl.ascx" />
+    <Content Include="UI\Styles\Simple\ModuleLayouts\LayoutControl1.ascx" />
+    <Content Include="UI\Styles\Simple\ModuleLayouts\LayoutControl2.ascx" />
+    <Content Include="UI\Styles\Simple\ModuleLayouts\LayoutControl3.ascx" />
+    <Content Include="UI\Styles\Simple\Setting.xml" />
+    <Content Include="UI\Styles\Simple\Templates\Default\Template.ascx" />
+    <Content Include="UI\Styles\Simple\Templates\Default\TemplateEdit.ascx" />
+    <Content Include="UI\Styles\Simple\Templates\OneColumn\Template.ascx" />
+    <Content Include="UI\Styles\Simple\Templates\OneColumn\TemplateEdit.ascx" />
+    <Content Include="UI\Styles\Simple\Templates\PageTemplate.ascx" />
+    <Content Include="UI\Styles\Simple\Themes\Default\c_config.js" />
+    <Content Include="UI\Styles\Simple\Themes\Default\Footer.css" />
+    <Content Include="UI\Styles\Simple\Themes\Default\FooterMenu.css" />
+    <Content Include="UI\Styles\Simple\Themes\Default\Header.css" />
+    <Content Include="UI\Styles\Simple\Themes\Default\HorzMenu.css" />
+    <Content Include="UI\Styles\Simple\Themes\Default\MainMenu.css" />
+    <Content Include="UI\Styles\Simple\Themes\Default\Module.css" />
+    <Content Include="UI\Styles\Simple\Themes\Default\ModuleAlt.css" />
+    <Content Include="UI\Styles\Simple\Themes\Default\ModuleAlt2.css" />
+    <Content Include="UI\Styles\Simple\Themes\Default\ModuleNoBorder.css" />
+    <Content Include="UI\Styles\Simple\Themes\Default\Style.css" />
+    <Content Include="UI\Styles\Simple\Themes\Default\VerticalMenu.css" />
+    <Content Include="UI\Styles\Styles.xml" />
+    <Content Include="UI\Templates\Template.ascx" />
+    <Content Include="UI\Templates\TemplateEdit.ascx" />
+    <Content Include="Upload\Modules\Contents\UploadPath0\0764596985.jpg" />
+    <Content Include="Upload\Portal0\Modules\stat.gif" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Default.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccessDenied.aspx.cs">
+      <DependentUpon>AccessDenied.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccessDenied.aspx.designer.cs">
+      <DependentUpon>AccessDenied.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\BlackList.ascx.cs">
+      <DependentUpon>BlackList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\BlackList.ascx.designer.cs">
+      <DependentUpon>BlackList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ContentsManager.ascx.cs">
+      <DependentUpon>ContentsManager.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ContentsManager.ascx.designer.cs">
+      <DependentUpon>ContentsManager.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ModuleInfo.ascx.cs">
+      <DependentUpon>ModuleInfo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ModuleInfo.ascx.designer.cs">
+      <DependentUpon>ModuleInfo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ModuleRoles.ascx.cs">
+      <DependentUpon>ModuleRoles.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ModuleRoles.ascx.designer.cs">
+      <DependentUpon>ModuleRoles.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ModuleSettings.ascx.cs">
+      <DependentUpon>ModuleSettings.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ModuleSettings.ascx.designer.cs">
+      <DependentUpon>ModuleSettings.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ObjRoles.ascx.cs">
+      <DependentUpon>ObjRoles.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ObjRoles.ascx.designer.cs">
+      <DependentUpon>ObjRoles.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ObjUsers.ascx.cs">
+      <DependentUpon>ObjUsers.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ObjUsers.ascx.designer.cs">
+      <DependentUpon>ObjUsers.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\PortalsManager.ascx.cs">
+      <DependentUpon>PortalsManager.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\PortalsManager.ascx.designer.cs">
+      <DependentUpon>PortalsManager.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\RolesManager.ascx.cs">
+      <DependentUpon>RolesManager.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\RolesManager.ascx.designer.cs">
+      <DependentUpon>RolesManager.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\TabsManager.ascx.cs">
+      <DependentUpon>TabsManager.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\TabsManager.ascx.designer.cs">
+      <DependentUpon>TabsManager.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Tabs\DockTitleTemplate.cs" />
+    <Compile Include="Admin\Tabs\Modules.ascx.cs">
+      <DependentUpon>Modules.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Tabs\Modules.ascx.designer.cs">
+      <DependentUpon>Modules.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Tabs\ModulesManagment.ascx.cs">
+      <DependentUpon>ModulesManagment.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Tabs\ModulesManagment.ascx.designer.cs">
+      <DependentUpon>ModulesManagment.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Tabs\Permission.ascx.cs">
+      <DependentUpon>Permission.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Tabs\Permission.ascx.designer.cs">
+      <DependentUpon>Permission.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Tabs\Properties.ascx.cs">
+      <DependentUpon>Properties.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Tabs\Properties.ascx.designer.cs">
+      <DependentUpon>Properties.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Tabs\TabControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Tabs\TemplateTheme.ascx.cs">
+      <DependentUpon>TemplateTheme.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Tabs\TemplateTheme.ascx.designer.cs">
+      <DependentUpon>TemplateTheme.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UsersManager.ascx.cs">
+      <DependentUpon>UsersManager.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UsersManager.ascx.designer.cs">
+      <DependentUpon>UsersManager.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Paya.designer.cs" />
+    <Compile Include="App_GlobalResources\Paya.en.designer.cs" />
+    <Compile Include="App_GlobalResources\Paya.en1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Paya.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Paya.fa.designer.cs" />
+    <Compile Include="App_GlobalResources\Paya.fa1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Paya.fa.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Paya1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Paya.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\RadGrid.Main.fa-IR.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RadGrid.Main.fa-IR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Captcha\CaptchaControl.ascx.cs">
+      <DependentUpon>CaptchaControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Captcha\CaptchaControl.ascx.designer.cs">
+      <DependentUpon>CaptchaControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Captcha\CaptchaHandler.aspx.cs">
+      <DependentUpon>CaptchaHandler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Captcha\CaptchaHandler.aspx.designer.cs">
+      <DependentUpon>CaptchaHandler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Captcha\CaptchaImage.cs" />
+    <Compile Include="Footer.ascx.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Footer.ascx.designer.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Header.ascx.cs">
+      <DependentUpon>Header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Header.ascx.designer.cs">
+      <DependentUpon>Header.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\FooterMenu.ascx.cs">
+      <DependentUpon>FooterMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Menu\FooterMenu.ascx.designer.cs">
+      <DependentUpon>FooterMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\HorizontalMenu.ascx.cs">
+      <DependentUpon>HorizontalMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Menu\HorizontalMenu.ascx.designer.cs">
+      <DependentUpon>HorizontalMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\CustomProfile\UserProfile.ascx.cs">
+      <DependentUpon>UserProfile.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\CustomProfile\UserProfile.ascx.designer.cs">
+      <DependentUpon>UserProfile.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ForgetPassword.ascx.cs">
+      <DependentUpon>ForgetPassword.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\ForgetPassword.ascx.designer.cs">
+      <DependentUpon>ForgetPassword.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\SignIn.ascx.cs">
+      <DependentUpon>SignIn.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\SignIn.ascx.designer.cs">
+      <DependentUpon>SignIn.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\SignOut.ascx.cs">
+      <DependentUpon>SignOut.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\SignOut.ascx.designer.cs">
+      <DependentUpon>SignOut.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\SignUp.ascx.cs">
+      <DependentUpon>SignUp.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\SignUp.ascx.designer.cs">
+      <DependentUpon>SignUp.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="PageManagment.aspx.cs">
+      <DependentUpon>PageManagment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageManagment.aspx.designer.cs">
+      <DependentUpon>PageManagment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\Footer.ascx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Header.ascx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\ModuleLayouts\DesignedLayout.ascx.cs">
+      <DependentUpon>DesignedLayout.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\ModuleLayouts\DesignedLayout.ascx.designer.cs">
+      <DependentUpon>DesignedLayout.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ModuleLayouts\ModuleLayout.ascx.cs">
+      <DependentUpon>ModuleLayout.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\ModuleLayouts\ModuleLayout.ascx.designer.cs">
+      <DependentUpon>ModuleLayout.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Templates\Template.ascx.cs">
+      <DependentUpon>Template.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Templates\Template.ascx.designer.cs">
+      <DependentUpon>Template.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Templates\TemplateEdit.ascx.cs">
+      <DependentUpon>TemplateEdit.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Templates\TemplateEdit.ascx.designer.cs">
+      <DependentUpon>TemplateEdit.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Upload\Modules\Contents\UploadPath19\" />
+    <Folder Include="Upload\Portal19\Modules\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PayaBL\PayaBL.csproj">
+      <Project>{35A1F06B-6E90-468F-95B8-F85F8F4C09B6}</Project>
+      <Name>PayaBL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PayaDB\PayaDB.csproj">
+      <Project>{E06FA3F6-100A-49F6-B620-5C8E1E912CAA}</Project>
+      <Name>PayaDB</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\rdTopLeft.psd" />
+    <None Include="Upload\Temp\RadUploadTestFile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Paya.en.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Paya.en1.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Paya.fa.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Paya.fa1.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Paya.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Paya1.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\RadGrid.Main.fa-IR.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>RadGrid.Main.fa-IR.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1087</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <UserProperties OpenAccess_Enhancing="True" />
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
