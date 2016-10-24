@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{35A1F06B-6E90-468F-95B8-F85F8F4C09B6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PayaBL</RootNamespace>
+    <AssemblyName>PayaBL</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.OpenAccess, Version=2010.2.714.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.OpenAccess.35.Extensions, Version=2010.2.714.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Classes\Authentication.cs" />
+    <Compile Include="Classes\Authorization.cs" />
+    <Compile Include="Classes\BannedIpAddress.cs" />
+    <Compile Include="Classes\BannedIpNetwork.cs" />
+    <Compile Include="Classes\BlackListManager.cs" />
+    <Compile Include="Classes\CustomProfileBl.cs" />
+    <Compile Include="Classes\Language.cs" />
+    <Compile Include="Classes\LocalResource.cs" />
+    <Compile Include="Classes\Module.cs" />
+    <Compile Include="Classes\ModuleDefComparer.cs" />
+    <Compile Include="Classes\Portal.cs" />
+    <Compile Include="Classes\PortalUserCompare.cs" />
+    <Compile Include="Classes\Role.cs" />
+    <Compile Include="Classes\RoleComparer.cs" />
+    <Compile Include="Classes\SignOnController.cs" />
+    <Compile Include="Classes\Tab.cs" />
+    <Compile Include="Classes\User.cs" />
+    <Compile Include="Classes\UserReq.cs" />
+    <Compile Include="Common\ForgetPass.cs" />
+    <Compile Include="Common\HejriGhamariDateTime.cs" />
+    <Compile Include="Common\HejriShamsiDateTime.cs" />
+    <Compile Include="Common\PayaTools.cs" />
+    <Compile Include="Common\PortalCach\Caching.cs" />
+    <Compile Include="Common\PortalCach\ClearCacheTask.cs" />
+    <Compile Include="Common\RedirectRule.cs" />
+    <Compile Include="Common\RemotePost.cs" />
+    <Compile Include="Common\UrlRedirection.cs" />
+    <Compile Include="Common\UrlRewriteModule.cs" />
+    <Compile Include="Common\WhiteSpaceFilter.cs" />
+    <Compile Include="Control\CachedModuleControl.cs" />
+    <Compile Include="Control\ModuleControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\PortalPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TextFile1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="App.Config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="reversemapping.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PayaDB\PayaDB.csproj">
+      <Project>{E06FA3F6-100A-49F6-B620-5C8E1E912CAA}</Project>
+      <Name>PayaDB</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties OpenAccess_EnhancementOutputLevel="1" OpenAccess_UpdateDatabase="False" OpenAccess_Enhancing="True" OpenAccess_ConnectionId="DatabaseConnection1" OpenAccess_ConfigFile="App.config" />
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

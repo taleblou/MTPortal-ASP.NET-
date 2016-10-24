@@ -1,0 +1,156 @@
+﻿		#region Field
+        #endregion
+
+        #region Properties
+
+		#region Base       
+
+        #endregion
+
+        #region Related
+        
+        #endregion
+
+        #endregion
+
+        #region Constrauctor
+        #endregion
+
+        #region Method
+
+        #region Insttance metod:
+        #endregion
+
+        #region Static Method:
+        #endregion
+
+       
+
+		==========================
+		#endregion
+
+		#region Method
+				
+		#endregion
+
+
+		==========================
+
+
+		public static int Add()
+        {
+            var scope = PayaScopeProvider.GetNewObjectScope();
+            try
+            {
+                scope.Transaction.Begin();
+                var o = new ...
+                            {
+                                
+                            };
+                scope.Add(o);
+                scope.Transaction.Commit();
+
+                return int.Parse(scope.GetObjectId(o).ToString());
+            }
+            catch (Exception)
+            {
+                if (scope.Transaction.IsActive)
+                    scope.Transaction.Rollback();
+                return 0;
+            }
+        }
+
+        public static bool Update()
+        {
+             IObjectScope scope = PayaScopeProvider.GetNewObjectScope();
+            try
+            {
+                var o = scope.Extent<TModule>().Single(emp => emp.ModuleID == moduleiD);
+                if (o != null)
+                {
+                    scope.Transaction.Begin();
+                    o.CacheTime = cachetime;
+                    o.Container = container;
+                    
+                    scope.Transaction.Commit();
+                    return true;
+                }
+                return false;
+            }
+            catch (Exception)
+            {
+                if (scope.Transaction.IsActive)
+                    scope.Transaction.Rollback();
+                return false;
+            }
+        }
+
+		public static bool Delete(int id)
+        {
+		var scope = PayaScopeProvider.GetNewObjectScope();
+            try
+            {
+                var o = scope.Extent<...>().Single(emp => emp.... == id);
+                scope.Transaction.Begin();
+                scope.Remove(o);
+                scope.Transaction.Commit();
+                return true;
+            }
+            catch (Exception)
+            {
+                if (scope.Transaction.IsActive)
+                    scope.Transaction.Rollback();
+                return false;
+            }
+        }
+		public static List<ModuleSetting> GetAll()
+        {
+            var scope = PayaScopeProvider.GetNewObjectScope();
+            return GetCollectionObjectFromDbCollectionObject(scope.Extent<TModuleSetting>().ToList());
+        }
+
+        public static ModuleSetting GetSingleByID(int id)
+        {
+            var scope = PayaScopeProvider.GetNewObjectScope();
+            return GetObjectFromDbObject(scope.Extent<TModuleSetting>().SingleOrDefault(o => o.SettingID == id));
+
+        }
+
+        private static ModuleSetting GetObjectFromDbObject(TModuleSetting moduleSetting)
+        {
+            return new ModuleSetting(moduleSetting.MSettID, moduleSetting.ModuleID, moduleSetting.SettingID,
+                                     moduleSetting.SettingValue, moduleSetting.TModule);
+        }
+
+        private static List<ModuleSetting> GetCollectionObjectFromDbCollectionObject(IEnumerable<TModuleSetting> list)
+        {
+            return list.Select(GetObjectFromDbObject).ToList();
+        }
+
+
+
+
+======================================================================================================================
+		public int Add()
+        {
+        }
+
+        public bool Update()
+        {
+        }
+
+		public bool Delete()
+        {
+        }
+
+
+
+
+
+		public static List<TModule> GetAuthKeyRoleBased(int AuthId)
+        {
+            var scope = PayaScopeProvider1.GetNewObjectScope();
+            TModuleRole TmoduleRole = scope.Extent<TModuleRole>().SingleOrDefault(oo => oo.AuthID == AuthId);
+            return TModule.GetAll().Where(o => TmoduleRole != null && o.ModuleID == TmoduleRole.ModuleID).ToList();
+
+        }
