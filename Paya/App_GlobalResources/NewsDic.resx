@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AlertStar" xml:space="preserve">
+    <value>* براي ثبت يا ويرايش اطلاعات، پرکردن موارد ستاره دار الزامي است.</value>
+  </data>
+  <data name="AlertStatus" xml:space="preserve">
+    <value>وضعيت اين خبر را چگونه ارزيابي مي کنيد؟</value>
+  </data>
+  <data name="Archive" xml:space="preserve">
+    <value>آرشيو</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>قبلی</value>
+  </data>
+  <data name="Body" xml:space="preserve">
+    <value>متن</value>
+  </data>
+  <data name="Caption" xml:space="preserve">
+    <value>عنوان</value>
+  </data>
+  <data name="CaptionAndKeywords" xml:space="preserve">
+    <value>عنوان و کليدواژه ها</value>
+  </data>
+  <data name="CaptionNews" xml:space="preserve">
+    <value>عنوان خبر</value>
+  </data>
+  <data name="CaptionOrKeyWords" xml:space="preserve">
+    <value>عنوان يا کليدواژه ها</value>
+  </data>
+  <data name="Comment" xml:space="preserve">
+    <value>با انتخاب هريک از گروهها، اخبار 
+																مربوط به آن گروه را مشاهده خواهيد کرد. براي بازگشت به حالت اوليه کليد "نمايش 
+																همگي" را فشار دهيد.</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>تاييد شده</value>
+  </data>
+  <data name="ConfirmDelete" xml:space="preserve">
+    <value>اخبار انتخاب شده و تصاوير آنها حذف خواهند شد! آيا مطمئن هستيد؟</value>
+  </data>
+  <data name="ConfirmDeleteGroup" xml:space="preserve">
+    <value>اين گروه حذف خواهد شد! در صورتي که خبري متعلق به اين گروه وجود داشته باشد از حذف گروه جلوگيري مي شود. آيا مطمئن هستيد؟</value>
+  </data>
+  <data name="ConfirmDeleteImage" xml:space="preserve">
+    <value>اين تصوير حذف خواهد شد! آيا مطمئن هستيد؟</value>
+  </data>
+  <data name="ConfirmDeleteNewsAndImage" xml:space="preserve">
+    <value>اين خبر و تصاوير مربوط به آن حذف خواهند شد! آيا مطمئن هستيد؟</value>
+  </data>
+  <data name="ConfirmEditBatch" xml:space="preserve">
+    <value>اخبار انتخاب شده ،گروه خبری آنها  تغییرخواهند کرد! آيا مطمئن هستيد؟</value>
+  </data>
+  <data name="ConfirmNewsForShowInPortal" xml:space="preserve">
+    <value>صحت خبر را تاييد مي کنم. خبر در مدت زمان تعيين شده در سامانه نمايش داده شود.</value>
+  </data>
+  <data name="ConfirmNewsinPortal" xml:space="preserve">
+    <value>اين خبر تاييد شده است و در سامانه نمايش داده مي شود.</value>
+  </data>
+  <data name="Creator" xml:space="preserve">
+    <value>ايجاد کننده</value>
+  </data>
+  <data name="DataManagment" xml:space="preserve">
+    <value>مديريت اطلاعات</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>تاریخ</value>
+  </data>
+  <data name="DateEndShow" xml:space="preserve">
+    <value>تاريخ پايان نمايش</value>
+  </data>
+  <data name="DateNews" xml:space="preserve">
+    <value>تاریخ مخابره</value>
+  </data>
+  <data name="DateStarShow" xml:space="preserve">
+    <value>تاريخ شروع نمايش</value>
+  </data>
+  <data name="Day" xml:space="preserve">
+    <value>روز</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="DeleteSelectNews" xml:space="preserve">
+    <value>حذف اخبار انتخاب شده</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>توضيحات</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>ويرايش</value>
+  </data>
+  <data name="EditData" xml:space="preserve">
+    <value>اعمال تغييرات</value>
+  </data>
+  <data name="ErrorDeleteGroup" xml:space="preserve">
+    <value>امکان حذف اين گروه وجود ندارد. احتمالا در اين گروه اخباري وارد شده است. براي حذف گروه لازم است ابتدااخبار مربوط به آن حذف يا به گروه ديگري منتقل شوند.</value>
+  </data>
+  <data name="ErrorDeleteImage" xml:space="preserve">
+    <value>امکان حذف اين تصوير وجود ندارد!</value>
+  </data>
+  <data name="ErrorDeleteNews" xml:space="preserve">
+    <value>امکان حذف اين خبر وجود ندارد!</value>
+  </data>
+  <data name="ErrorDuplicateInsertData" xml:space="preserve">
+    <value>گروه تکراری است</value>
+  </data>
+  <data name="ErrorDuplicateName" xml:space="preserve">
+    <value>نام گروه تکراری می باشد </value>
+  </data>
+  <data name="ErrorEditCaptionImage" xml:space="preserve">
+    <value>در ويرايش عنوان تصوير مشکل پيش آمده است. لطفا دوباره سعي کنيد.</value>
+  </data>
+  <data name="ErrorEditData" xml:space="preserve">
+    <value>در روند ويرايش اطلاعات مشکلي به وجود آمده است. لطفا دوباره سعي کنيد.</value>
+  </data>
+  <data name="ErrorEditImage" xml:space="preserve">
+    <value>در ويرايش تصوير مشکلي به وجود آمده است. لطفا دوباره سعي کنيد.</value>
+  </data>
+  <data name="ErrorEditNewsForDate" xml:space="preserve">
+    <value>امکان ويرايش اين اطلاعات وجود ندارد. احتمالا تاريخهاي مربوط به آن را درست وارد نکرده ايد. لطفا دوباره سعي کنيد.</value>
+  </data>
+  <data name="ErrorEmptyBox" xml:space="preserve">
+    <value>عنوان یا کلمه کلیدی نمی تواند خالی باشد</value>
+  </data>
+  <data name="ErrorInsertData" xml:space="preserve">
+    <value>در درج اطلاعات مشکلي به وجود آمده است. لطفا دوباره سعي کنيد.</value>
+  </data>
+  <data name="ErrorInsertDataTryAgin" xml:space="preserve">
+    <value>در ثبت اطلاعات مشکلي پيش آمده است! لطفا دوباره سعي کنيد.</value>
+  </data>
+  <data name="ErrorInsertImage" xml:space="preserve">
+    <value>براي ثبت يک تصوير مي بايست آن را وارد کنيد!</value>
+  </data>
+  <data name="ErrorInsertNewsForDate" xml:space="preserve">
+    <value>امکان ثبت اين خبر وجود ندارد. احتمالا تاريخهاي مربوط به آن را درست وارد نکرده ايد. لطفا دوباره سعي کنيد.</value>
+  </data>
+  <data name="ErrorSizeImage" xml:space="preserve">
+    <value>اندازه تصوير مي بايست حداکثر 25 پيکسل باشد!</value>
+  </data>
+  <data name="ErrorSizePic" xml:space="preserve">
+    <value>اندازه تصوير مي بايست حداکثر 200 کيلوبايت باشد.</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>گروه</value>
+  </data>
+  <data name="GroupManagment" xml:space="preserve">
+    <value>مديريت گروهها</value>
+  </data>
+  <data name="GroupName" xml:space="preserve">
+    <value>نام گروه</value>
+  </data>
+  <data name="GroupNews" xml:space="preserve">
+    <value>گروه خبري</value>
+  </data>
+  <data name="GroupNewsManagment" xml:space="preserve">
+    <value>مديريت گروههاي خبري</value>
+  </data>
+  <data name="GroupNewsProgramManagment" xml:space="preserve">
+    <value>مديريت گروههاي خبري - برنامه </value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>تصوير</value>
+  </data>
+  <data name="ImagesFor" xml:space="preserve">
+    <value>تصاوير مربوط به </value>
+  </data>
+  <data name="IncorrectImageForNews" xml:space="preserve">
+    <value>اين تصوير را براي خبر، درست نمي دانيد؟ اطلاعات مربوط به آن را در اين محل ويرايش کنيد. اگر تصوير جديدي انتخاب ننماييد، همان تصوير پيشين درنظر گرفته خواهد شد</value>
+  </data>
+  <data name="InsertData" xml:space="preserve">
+    <value>ثبت اطلاعات</value>
+  </data>
+  <data name="InsertImage" xml:space="preserve">
+    <value>ثبت تصوير</value>
+  </data>
+  <data name="InsertNewData" xml:space="preserve">
+    <value>افزودن اطلاعات جديد</value>
+  </data>
+  <data name="KeyWords" xml:space="preserve">
+    <value>کليدواژه ها</value>
+  </data>
+  <data name="MessageEditData" xml:space="preserve">
+    <value>اطلاعات مورد نظر شما با موفقيت ويرايش گرديد.</value>
+  </data>
+  <data name="MessageInsertData" xml:space="preserve">
+    <value>اطلاعات مورد نظر شما با موفقيت ثبت گرديد.</value>
+  </data>
+  <data name="Month" xml:space="preserve">
+    <value>ماه</value>
+  </data>
+  <data name="MoveGroup" xml:space="preserve">
+    <value>انتقال به گروه</value>
+  </data>
+  <data name="NewGroup" xml:space="preserve">
+    <value>گروه جدید</value>
+  </data>
+  <data name="NewsArchive" xml:space="preserve">
+    <value>آرشيو اخبار</value>
+  </data>
+  <data name="NewsDetail" xml:space="preserve">
+    <value>جزئيات اخبار</value>
+  </data>
+  <data name="NewsManagment" xml:space="preserve">
+    <value>مديريت اخبار</value>
+  </data>
+  <data name="NewsManagmentProgram" xml:space="preserve">
+    <value>مديريت  اخبار - برنامه </value>
+  </data>
+  <data name="NewsNew" xml:space="preserve">
+    <value>خبر جديد</value>
+  </data>
+  <data name="NewsSummary" xml:space="preserve">
+    <value>خلاصه خبر</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>نامشخص</value>
+  </data>
+  <data name="NotConfirm" xml:space="preserve">
+    <value>تاييد نشده</value>
+  </data>
+  <data name="NotConfirmCorrectNews" xml:space="preserve">
+    <value>صحت خبر را تاييد نمي کنم.</value>
+  </data>
+  <data name="NotConfirmNews" xml:space="preserve">
+    <value>اين خبر تاييد نشده است.</value>
+  </data>
+  <data name="NoViewTime" xml:space="preserve">
+    <value>تعداد دفعات مشاهده</value>
+  </data>
+  <data name="Optional" xml:space="preserve">
+    <value>تمام موارد اختياري مي باشند.</value>
+  </data>
+  <data name="OtherImage" xml:space="preserve">
+    <value>تصوير ديگري مد نظر شماست؟ آن را در اينجا وارد نماييد.</value>
+  </data>
+  <data name="OtherImages" xml:space="preserve">
+    <value>تصاوير ديگر</value>
+  </data>
+  <data name="ParentGroup" xml:space="preserve">
+    <value>سرگروه</value>
+  </data>
+  <data name="PlzSelectGroupNews" xml:space="preserve">
+    <value>لطفا گروه خبر را مشخص کنيد.</value>
+  </data>
+  <data name="ReadMore" xml:space="preserve">
+    <value>ادامه مطلب »</value>
+  </data>
+  <data name="RowId" xml:space="preserve">
+    <value>رديف</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>جستجو</value>
+  </data>
+  <data name="ShowAll" xml:space="preserve">
+    <value>نمايش همگي</value>
+  </data>
+  <data name="showimage" xml:space="preserve">
+    <value>نمایش تصویر</value>
+  </data>
+  <data name="ShowNews" xml:space="preserve">
+    <value>نمايش مطلب</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>وضعيت</value>
+  </data>
+  <data name="StatusNews" xml:space="preserve">
+    <value>وضعيت خبر</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value> بار</value>
+  </data>
+  <data name="UpdateData" xml:space="preserve">
+    <value>ويرايش اطلاعات</value>
+  </data>
+  <data name="UpdateImage" xml:space="preserve">
+    <value>اطلاعات مربوط به تصوير را مي توانيد در اينجا ويرايش نماييد. اگر در محل مربوط به تصوير، اطلاعاتي وارد ننماييد، همان تصوير پيشين براي شما در نظر گرفته خواهد شد.</value>
+  </data>
+  <data name="ValidationCaption" xml:space="preserve">
+    <value>عنوان خبر را وارد کنيد</value>
+  </data>
+  <data name="ValidationGroupName" xml:space="preserve">
+    <value>نام گروه را وارد کنيد</value>
+  </data>
+  <data name="ValidationGroupNews" xml:space="preserve">
+    <value>گروه خبر را وارد کنيد</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>سال</value>
+  </data>
+  <data name="NewsDelete" xml:space="preserve">
+    <value>حذف خبر</value>
+  </data>
+  <data name="NewsEdit" xml:space="preserve">
+    <value>ویرایش خبر</value>
+  </data>
+  <data name="TransferShowingToDown" xml:space="preserve">
+    <value>انتقال نمایش به پایین</value>
+  </data>
+  <data name="TransferShowingToUp" xml:space="preserve">
+    <value>انتقال نمایش به بالا</value>
+  </data>
+  <data name="AllGroups" xml:space="preserve">
+    <value>تمام گروه ها</value>
+  </data>
+  <data name="NeedLogIn" xml:space="preserve">
+    <value>برای افزودن خبر باید به مدیریت وارد شوید</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>چاپ</value>
+  </data>
+  <data name="SendToFriendMessage" xml:space="preserve">
+    <value>برای ارسال مطلب به بيش ازيک آدرس، آنها را با , از هم جدا کنيد. برای مثال</value>
+  </data>
+  <data name="SendToFriends" xml:space="preserve">
+    <value>ارسال به دوستان</value>
+  </data>
+  <data name="ImportantNews" xml:space="preserve">
+    <value>اخبار مهم</value>
+  </data>
+  <data name="OtherNews" xml:space="preserve">
+    <value>سایر اخبار</value>
+  </data>
+  <data name="SelectNews" xml:space="preserve">
+    <value>خبر برگزيده</value>
+  </data>
+  <data name="NewsImportantShow" xml:space="preserve">
+    <value>خبر مهم است و در قسمت اخبار مهم نمايش داده مي شود</value>
+  </data>
+  <data name="NewsSelectOneShow" xml:space="preserve">
+    <value>خبر برگزيده است و به عنوان اولين خبر نمايش داده مي شود</value>
+  </data>
+  <data name="noImportantNews" xml:space="preserve">
+    <value>خبر مهم نيست</value>
+  </data>
+  <data name="noSelectNews" xml:space="preserve">
+    <value>خبر برگزيده نيست</value>
+  </data>
+  <data name="ParentUpdateError" xml:space="preserve">
+    <value>یک گروه نمی تواند سر گروه خودش باشد.</value>
+  </data>
+  <data name="TabIdErrorMessage" xml:space="preserve">
+    <value>صفحه ای که برای نمایش جزئیات وارد کرده اید، وجود ندارد</value>
+  </data>
+  <data name="FromSum" xml:space="preserve">
+    <value>از مجموع</value>
+  </data>
+  <data name="NewsImagesHelpText" xml:space="preserve">
+    <value>تصاویر مربوط به خبر</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>بعدی</value>
+  </data>
+  <data name="Picture" xml:space="preserve">
+    <value>تصویر</value>
+  </data>
+  <data name="PrintableVersion" xml:space="preserve">
+    <value>نسخه چاپی</value>
+  </data>
+  <data name="Return" xml:space="preserve">
+    <value>بازگشت</value>
+  </data>
+  <data name="Review" xml:space="preserve">
+    <value>ثبت نظر</value>
+  </data>
+  <data name="NoNewsMessage" xml:space="preserve">
+    <value>این صفحه برای نمایش خبر است ولی خبری برای نمایش به آن ارسال نشده است.</value>
+  </data>
+  <data name="NoReviewDLL" xml:space="preserve">
+    <value>اسمبلی ارسال نظرات موجود نمی باشد</value>
+  </data>
+  <data name="NoSendMailDLL" xml:space="preserve">
+    <value>اسمبلی ارسال ایمیل موجود نمی باشد</value>
+  </data>
+  <data name="OrderlyNews" xml:space="preserve">
+    <value>ترتیب خبر</value>
+  </data>
+  <data name="ChangeOrderly" xml:space="preserve">
+    <value>تغییر ترتیب خبر</value>
+  </data>
+</root>

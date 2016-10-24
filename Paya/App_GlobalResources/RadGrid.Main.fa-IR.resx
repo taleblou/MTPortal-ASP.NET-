@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddNewRecordImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AddNewRecordText" xml:space="preserve">
+    <value>افزودن رکورد جدید</value>
+  </data>
+  <data name="Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CollapseTooltip" xml:space="preserve">
+    <value>گروه بسته</value>
+  </data>
+  <data name="ColumnResizeTooltipFormatString" xml:space="preserve">
+    <value>پهنا: &lt;strong&gt;{0}&lt;/strong&gt; &lt;em&gt;pixels&lt;/em&gt;</value>
+  </data>
+  <data name="DragToGroupOrReorder" xml:space="preserve">
+    <value>بکشید به گروه و یا رکورد</value>
+  </data>
+  <data name="DragToResize" xml:space="preserve">
+    <value>بکشید برای تغییر اندازه</value>
+  </data>
+  <data name="DropHereToReorder" xml:space="preserve">
+    <value>رها کردن رکورد</value>
+  </data>
+  <data name="ExpandTooltip" xml:space="preserve">
+    <value>گسترش گروه</value>
+  </data>
+  <data name="ExportToCsvImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ExportToCsvText" xml:space="preserve">
+    <value>خروجی به CSV</value>
+  </data>
+  <data name="ExportToExcelImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ExportToExcelText" xml:space="preserve">
+    <value>خروجی به Excel</value>
+  </data>
+  <data name="ExportToPdfText" xml:space="preserve">
+    <value>خروجی به Pdf</value>
+  </data>
+  <data name="ExportToPdfImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ExportToWordImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ExportToWordText" xml:space="preserve">
+    <value>خروجی به Word</value>
+  </data>
+  <data name="FilterExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FirstPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FirstPageToolTip" xml:space="preserve">
+    <value>اولین صفحه</value>
+  </data>
+  <data name="GroupByFieldsSeparator" xml:space="preserve">
+    <value>; </value>
+  </data>
+  <data name="GroupContinuedFormatString" xml:space="preserve">
+    <value>...گروه در صفحه قبل را ادامه داد.</value>
+  </data>
+  <data name="GroupContinuesFormatString" xml:space="preserve">
+    <value>ادامه گروه در صفحه بعد است.</value>
+  </data>
+  <data name="GroupPanelText" xml:space="preserve">
+    <value>هدر ستون کشیدن و رها کردن آن به گروهی است که توسط ستون</value>
+  </data>
+  <data name="GroupSplitDisplayFormat" xml:space="preserve">
+    <value>نمایش{0} از{1} آیتم</value>
+  </data>
+  <data name="GroupSplitFormat" xml:space="preserve">
+    <value> ({0})</value>
+  </data>
+  <data name="HierarchyCollapseTooltip" xml:space="preserve">
+    <value>بستن</value>
+  </data>
+  <data name="HierarchyExpandTooltip" xml:space="preserve">
+    <value>گسترش</value>
+  </data>
+  <data name="HierarchySelfCollapseTooltip" xml:space="preserve">
+    <value>بستن مرجع خود</value>
+  </data>
+  <data name="HierarchySelfExpandTooltip" xml:space="preserve">
+    <value>مرجع خود را گسترش دادن</value>
+  </data>
+  <data name="LastPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LastPageToolTip" xml:space="preserve">
+    <value>آخرین صفحه</value>
+  </data>
+  <data name="LoadingText" xml:space="preserve">
+    <value>بارگیری...</value>
+  </data>
+  <data name="NextPagesToolTip" xml:space="preserve">
+    <value>صفحه</value>
+  </data>
+  <data name="NextPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NextPageToolTip" xml:space="preserve">
+    <value>صفحه بعد</value>
+  </data>
+  <data name="NoDetailRecordsText" xml:space="preserve">
+    <value>رکورد فرزندی بریا نمایش وجو ندارد</value>
+  </data>
+  <data name="NoMasterRecordsText" xml:space="preserve">
+    <value>رکوردی برای نمایش وجود ندارد</value>
+  </data>
+  <data name="PagerTextFormat" xml:space="preserve">
+    <value>Change page: {4} &amp;nbsp;Page &lt;strong&gt;{0}&lt;/strong&gt; of &lt;strong&gt;{1}&lt;/strong&gt;, items &lt;strong&gt;{2}&lt;/strong&gt; to &lt;strong&gt;{3}&lt;/strong&gt; of &lt;strong&gt;{5}&lt;/strong&gt;.</value>
+  </data>
+  <data name="PagerTooltipFormatString" xml:space="preserve">
+    <value>صفحه &lt;strong&gt;{0}&lt;/strong&gt; از&lt;strong&gt;{1}&lt;/strong&gt;</value>
+  </data>
+  <data name="PageSizeLabelText" xml:space="preserve">
+    <value>اندازه صفحه:</value>
+  </data>
+  <data name="PrevPagesToolTip" xml:space="preserve">
+    <value>صفحه قبلی</value>
+  </data>
+  <data name="PrevPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PrevPageToolTip" xml:space="preserve">
+    <value>صفحه قبلی</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>تازه سازی</value>
+  </data>
+  <data name="RefreshImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ReservedResource" xml:space="preserve">
+    <value>لطفا این کلید را حذف نکنید.</value>
+  </data>
+  <data name="SortedAscToolTip" xml:space="preserve">
+    <value>مرتب کردن صعودی</value>
+  </data>
+  <data name="SortedDescToolTip" xml:space="preserve">
+    <value>مرتب کردن نزولی</value>
+  </data>
+  <data name="SortToolTip" xml:space="preserve">
+    <value>مرتب کردن</value>
+  </data>
+  <data name="StatusReadyText" xml:space="preserve">
+    <value>خواندنی</value>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UnGroupButtonTooltip" xml:space="preserve">
+    <value>از گروه بندی در آوردن</value>
+  </data>
+  <data name="UnGroupTooltip" xml:space="preserve">
+    <value>کشیدن از نوار به خارج گروه بندی</value>
+  </data>
+  <data name="BetweenText" xml:space="preserve">
+    <value>در بین</value>
+  </data>
+  <data name="ContainsText" xml:space="preserve">
+    <value>شامل شدن</value>
+  </data>
+  <data name="CustomText" xml:space="preserve">
+    <value>سفارشی</value>
+  </data>
+  <data name="DoesNotContainText" xml:space="preserve">
+    <value>شامل نمی شود</value>
+  </data>
+  <data name="EndsWithText" xml:space="preserve">
+    <value>پایان پذیرد با</value>
+  </data>
+  <data name="EqualToText" xml:space="preserve">
+    <value>برابر با</value>
+  </data>
+  <data name="GreaterThanOrEqualToText" xml:space="preserve">
+    <value>بزرگتر با مساوی</value>
+  </data>
+  <data name="GreaterThanText" xml:space="preserve">
+    <value>بزرگتر از</value>
+  </data>
+  <data name="IsEmptyText" xml:space="preserve">
+    <value>خالی</value>
+  </data>
+  <data name="IsNullText" xml:space="preserve">
+    <value>پوچ</value>
+  </data>
+  <data name="LessThanOrEqualToText" xml:space="preserve">
+    <value>کوچکتر یا مساوی</value>
+  </data>
+  <data name="LessThanText" xml:space="preserve">
+    <value>کوچکتر از</value>
+  </data>
+  <data name="NoFilterText" xml:space="preserve">
+    <value>بدون فیلتر</value>
+  </data>
+  <data name="NotBetweenText" xml:space="preserve">
+    <value>در بین نبودن</value>
+  </data>
+  <data name="NotEqualToText" xml:space="preserve">
+    <value>برابر نبودن</value>
+  </data>
+  <data name="NotIsEmptyText" xml:space="preserve">
+    <value>پوچ نبودن</value>
+  </data>
+  <data name="NotIsNullText" xml:space="preserve">
+    <value>خالی نبودن</value>
+  </data>
+  <data name="StartsWithText" xml:space="preserve">
+    <value>شروع شود با</value>
+  </data>
+  <data name="ChangePageSizeLabelText" xml:space="preserve">
+    <value>اندازه صفحه:</value>
+  </data>
+  <data name="ChangePageSizeLinkButtonText" xml:space="preserve">
+    <value>تغییر</value>
+  </data>
+  <data name="GoToPageLabelText" xml:space="preserve">
+    <value>Page:</value>
+  </data>
+  <data name="GoToPageLinkButtonText" xml:space="preserve">
+    <value>برو</value>
+  </data>
+  <data name="HeaderContextMenuAndLabel" xml:space="preserve">
+    <value>و</value>
+  </data>
+  <data name="HeaderContextMenuClearButton" xml:space="preserve">
+    <value>حذف فیلتر</value>
+  </data>
+  <data name="HeaderContextMenuColumns" xml:space="preserve">
+    <value>ستون ها</value>
+  </data>
+  <data name="HeaderContextMenuFilterButton" xml:space="preserve">
+    <value>فیلتر</value>
+  </data>
+  <data name="HeaderContextMenuFilterItemText" xml:space="preserve">
+    <value>فیلتر</value>
+  </data>
+  <data name="HeaderContextMenuGroupBy" xml:space="preserve">
+    <value>گروه بندی</value>
+  </data>
+  <data name="HeaderContextMenuRowsLabel" xml:space="preserve">
+    <value>نمایش سطر ها با مقدار آن</value>
+  </data>
+  <data name="HeaderContextMenuSortAsc" xml:space="preserve">
+    <value>مرتب سازی افزایشی</value>
+  </data>
+  <data name="HeaderContextMenuSortClear" xml:space="preserve">
+    <value>پاک کردن مرتب سازی</value>
+  </data>
+  <data name="HeaderContextMenuSortDesc" xml:space="preserve">
+    <value>مرتب سازی نزولی</value>
+  </data>
+  <data name="HeaderContextMenuUnGroupBy" xml:space="preserve">
+    <value>بدون گروه بندی</value>
+  </data>
+  <data name="PageOfLabelText" xml:space="preserve">
+    <value>از {0}</value>
+  </data>
+  <data name="FilterImageToolTip" xml:space="preserve">
+    <value>فیلتر</value>
+  </data>
+</root>

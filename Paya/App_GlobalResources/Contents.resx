@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddContent" xml:space="preserve">
+    <value>افزودن محتوا</value>
+  </data>
+  <data name="AllView" xml:space="preserve">
+    <value>نمايش همگي</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>تاييد شده</value>
+  </data>
+  <data name="ApprovedContent" xml:space="preserve">
+    <value>تایید محتوا</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>بازگشت</value>
+  </data>
+  <data name="Caption" xml:space="preserve">
+    <value>عنوان</value>
+  </data>
+  <data name="CheckAll" xml:space="preserve">
+    <value>انتخاب همگی</value>
+  </data>
+  <data name="ConfirmDeleteConfirm" xml:space="preserve">
+    <value>اين محتوا  حذف خواهند شد! آيا مطمئن هستيد؟</value>
+  </data>
+  <data name="ConfirmDeleteContents" xml:space="preserve">
+    <value>چند محتواي انتخاب شده حذف خواهند شد! آيا مطمئن هستيد؟</value>
+  </data>
+  <data name="Content" xml:space="preserve">
+    <value>محتوا</value>
+  </data>
+  <data name="ContentManagmnet" xml:space="preserve">
+    <value>مديريت  محتوا ها - برنامه: </value>
+  </data>
+  <data name="Creator" xml:space="preserve">
+    <value>ايجاد کننده</value>
+  </data>
+  <data name="DataManagment" xml:space="preserve">
+    <value>مديريت محتوا</value>
+  </data>
+  <data name="DateCreate" xml:space="preserve">
+    <value>تاريخ آخرین تغییر</value>
+  </data>
+  <data name="DateEndView" xml:space="preserve">
+    <value>تاريخ پايان نمايش</value>
+  </data>
+  <data name="DateStartView" xml:space="preserve">
+    <value>تاريخ شروع نمايش</value>
+  </data>
+  <data name="Day" xml:space="preserve">
+    <value>روز</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>حذف محتوا</value>
+  </data>
+  <data name="DeleteContent" xml:space="preserve">
+    <value>حذف چند محتواي انتخاب شده</value>
+  </data>
+  <data name="DetailsContent" xml:space="preserve">
+    <value>جزئيات محتوا</value>
+  </data>
+  <data name="DontApply" xml:space="preserve">
+    <value>تاييد نشده</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>ويرايش محتوا</value>
+  </data>
+  <data name="EditContent" xml:space="preserve">
+    <value>ويرايش محتوا</value>
+  </data>
+  <data name="ErrorDeleteContent" xml:space="preserve">
+    <value>امکان حذف اين محتوا وجود ندارد</value>
+  </data>
+  <data name="ErrorDontApplyContent" xml:space="preserve">
+    <value>اين محتوا تاييد نشده است.</value>
+  </data>
+  <data name="ErrorEditContentDate" xml:space="preserve">
+    <value>امکان ويرايش اين اطلاعات وجود ندارد. احتمالا تاريخهاي مربوط به آن را درست وارد نکرده ايد. لطفا دوباره سعي کنيد</value>
+  </data>
+  <data name="ErrorInsertContent" xml:space="preserve">
+    <value>امکان ثبت اين محتوا وجود ندارد. احتمالا تاريخهاي مربوط به آن را درست وارد نکرده ايد. لطفا دوباره سعي کنيد</value>
+  </data>
+  <data name="ErrorInsertContentDate" xml:space="preserve">
+    <value>امکان ثبت اين محتوا وجود ندارد. احتمالا تاريخهاي مربوط به آن را درست وارد نکرده ايد. لطفا دوباره سعي کنيد.</value>
+  </data>
+  <data name="friday" xml:space="preserve">
+    <value>جمعه</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>از</value>
+  </data>
+  <data name="InsertData" xml:space="preserve">
+    <value>ثبت اطلاعات</value>
+  </data>
+  <data name="LastDateUpdate" xml:space="preserve">
+    <value>تاریخ آخرین به روزرسانی</value>
+  </data>
+  <data name="MessageApplyContent" xml:space="preserve">
+    <value>اين محتوا تاييد شده است و در سامانه نمايش داده مي شود.</value>
+  </data>
+  <data name="MessageInsertContent" xml:space="preserve">
+    <value>اطلاعات مورد نظر شما با موفقيت ثبت گرديد</value>
+  </data>
+  <data name="MessageUpdateContent" xml:space="preserve">
+    <value>اطلاعات مورد نظر شما با موفقيت ويرايش گرديد.</value>
+  </data>
+  <data name="monday" xml:space="preserve">
+    <value>دوشنبه </value>
+  </data>
+  <data name="Month" xml:space="preserve">
+    <value>ماه</value>
+  </data>
+  <data name="NewContent" xml:space="preserve">
+    <value>محتواي جديد</value>
+  </data>
+  <data name="Optional" xml:space="preserve">
+    <value>تمام موارد اختياري مي باشند</value>
+  </data>
+  <data name="Order" xml:space="preserve">
+    <value>ترتيب</value>
+  </data>
+  <data name="orderShow" xml:space="preserve">
+    <value>ترتيب نمايش</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>چاپ</value>
+  </data>
+  <data name="RowId" xml:space="preserve">
+    <value>رديف
+</value>
+  </data>
+  <data name="saturday" xml:space="preserve">
+    <value>شنبه </value>
+  </data>
+  <data name="search" xml:space="preserve">
+    <value>جستجو</value>
+  </data>
+  <data name="ShowDate" xml:space="preserve">
+    <value>تاريخ نمايش</value>
+  </data>
+  <data name="ShowDays" xml:space="preserve">
+    <value>روزهاي نمايش</value>
+  </data>
+  <data name="StatusApplyContent" xml:space="preserve">
+    <value>وضعيت تاييد محتوا</value>
+  </data>
+  <data name="sunday" xml:space="preserve">
+    <value>یکشنبه </value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>تا</value>
+  </data>
+  <data name="tuesday" xml:space="preserve">
+    <value>سه شنبه </value>
+  </data>
+  <data name="tursday" xml:space="preserve">
+    <value>پنچ شنبه </value>
+  </data>
+  <data name="UnCheckAll" xml:space="preserve">
+    <value>حذف همگی</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>نامشخص</value>
+  </data>
+  <data name="UpdateData" xml:space="preserve">
+    <value>ثبت تغييرات</value>
+  </data>
+  <data name="UserCreator" xml:space="preserve">
+    <value>کاربر ايجاد کننده</value>
+  </data>
+  <data name="ValidationCaption" xml:space="preserve">
+    <value>لطفاً عنوان را وارد نماييد</value>
+  </data>
+  <data name="ValidationEnterNumer" xml:space="preserve">
+    <value>لطفا عدد وارد نمایید</value>
+  </data>
+  <data name="ValidationNumber" xml:space="preserve">
+    <value>لطفا ترتیب نمایش را وارد نمایید</value>
+  </data>
+  <data name="ValidationStar" xml:space="preserve">
+    <value>براي ثبت يا ويرايش اطلاعات، پرکردن موارد ستاره دار الزامي است.</value>
+  </data>
+  <data name="wednsday" xml:space="preserve">
+    <value>چهارشنبه </value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>سال</value>
+  </data>
+  <data name="ShowContentAllDaye" xml:space="preserve">
+    <value>نمایش همیشگی</value>
+  </data>
+  <data name="ChooseWhenShown" xml:space="preserve">
+    <value>انتخاب نحوه نمایش</value>
+  </data>
+</root>

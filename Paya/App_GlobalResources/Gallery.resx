@@ -1,0 +1,534 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Action" xml:space="preserve">
+    <value>اقدام</value>
+  </data>
+  <data name="AddedDate" xml:space="preserve">
+    <value>تاریخ ایجاد</value>
+  </data>
+  <data name="AddGroup" xml:space="preserve">
+    <value>اضافه کردن گروه</value>
+  </data>
+  <data name="AddNewItem" xml:space="preserve">
+    <value>افزودن آيتم جديد</value>
+  </data>
+  <data name="AddTo" xml:space="preserve">
+    <value>اضافه شد </value>
+  </data>
+  <data name="AddTodb" xml:space="preserve">
+    <value>افزودن فایل به دیتابیس</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>همه</value>
+  </data>
+  <data name="AllCategory" xml:space="preserve">
+    <value>همه گروهها</value>
+  </data>
+  <data name="ApplyItem" xml:space="preserve">
+    <value>آيتم را تاييد مي کنم. به عنوان يک آيتم رسمي در سامانه قرار گيرد.</value>
+  </data>
+  <data name="Archive" xml:space="preserve">
+    <value>آرشيو</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>بازگشت</value>
+  </data>
+  <data name="Caption" xml:space="preserve">
+    <value>عنوان</value>
+  </data>
+  <data name="Categories" xml:space="preserve">
+    <value>گروهها</value>
+  </data>
+  <data name="CloseImagePath" xml:space="preserve">
+    <value>/Modules/Gallery/lightbox2.02/images/closelabelF.gif</value>
+  </data>
+  <data name="CommentCat" xml:space="preserve">
+    <value> گروههای تعریف شده در نگارخانه به صورت لیست در اختیار شما قرار داده شده با انتخاب هر گروه ، لیست عکسهای مربوطه نمایش داده می شود</value>
+  </data>
+  <data name="CommentSearch" xml:space="preserve">
+    <value>جستجوی تصاویر </value>
+  </data>
+  <data name="CommentSelectedPic" xml:space="preserve">
+    <value>تصاویر منتخب از مجموعه زیر گروههای این گروه</value>
+  </data>
+  <data name="ConfirmDelete" xml:space="preserve">
+    <value>اين آيتم حذف خواهد شد! آيا مطمئن هستيد؟</value>
+  </data>
+  <data name="ConfirmItem" xml:space="preserve">
+    <value>آيتم تاييد شده</value>
+  </data>
+  <data name="CountView" xml:space="preserve">
+    <value>دفعات مشاهده</value>
+  </data>
+  <data name="Creator" xml:space="preserve">
+    <value>ايجاد کننده </value>
+  </data>
+  <data name="CssPath" xml:space="preserve">
+    <value>/Modules/Gallery/lightbox2.02/css/lightboxF.css</value>
+  </data>
+  <data name="Data" xml:space="preserve">
+    <value>اطلاعات</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>تاريخ</value>
+  </data>
+  <data name="DateCreate" xml:space="preserve">
+    <value>تاريخ ايجاد</value>
+  </data>
+  <data name="Day" xml:space="preserve">
+    <value>روز</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="DeleteGroup" xml:space="preserve">
+    <value>حذف گروه</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>توضیحات</value>
+  </data>
+  <data name="DontApllyItem" xml:space="preserve">
+    <value>آيتم را تاييد نمي کنم.</value>
+  </data>
+  <data name="EditGroup" xml:space="preserve">
+    <value>ویرایش گروه</value>
+  </data>
+  <data name="EditItem" xml:space="preserve">
+    <value>ويرايش آيتم</value>
+  </data>
+  <data name="Empty" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ErrorAddFile" xml:space="preserve">
+    <value>اضافه کردن فایل دچار مشکل شد</value>
+  </data>
+  <data name="ErrorAddImage" xml:space="preserve">
+    <value>اضافه کردن تصویر دچار مشکل شد</value>
+  </data>
+  <data name="ErrorChecked" xml:space="preserve">
+    <value>عکس مورد نظر را انتخاب کنید</value>
+  </data>
+  <data name="ErrorDelete" xml:space="preserve">
+    <value>اشکالي در حذف گروه بوجود آمد. احتمالاً اين گروه داراي زير گروه است!</value>
+  </data>
+  <data name="ErrorDeleteCat" xml:space="preserve">
+    <value>امکان حذف گروه وجود ندارد ، احتمالا گروه دارای محصول می باشد </value>
+  </data>
+  <data name="ErrorDeleteFile" xml:space="preserve">
+    <value>امکان حذف فایل وجود ندارد</value>
+  </data>
+  <data name="ErrorDeleteItem" xml:space="preserve">
+    <value>امکان حذف اين آيتم وجود ندارد. احتمالا براي کسي ارسال شده است.</value>
+  </data>
+  <data name="ErrorDeletePic" xml:space="preserve">
+    <value>امکان حذف فایل نمونه وجود ندارد</value>
+  </data>
+  <data name="ErrorDuplicateGroup" xml:space="preserve">
+    <value>اشکال در ذخیره گروه ، احتمالا گروه تکراری است</value>
+  </data>
+  <data name="ErrorEditItem" xml:space="preserve">
+    <value>امکان ويرايش آيتم وجود ندارد. احتمالا نوع فايل مجاز نمي باشد.</value>
+  </data>
+  <data name="ErrorEditSmallItem" xml:space="preserve">
+    <value>امکان ويرايش آيتم کوچک وجود ندارد. احتمالا نوع آن مجاز نمي باشد.</value>
+  </data>
+  <data name="ErrorFileType" xml:space="preserve">
+    <value>فایل الحاقی بایستی فایل تصویری باشد .</value>
+  </data>
+  <data name="ErrorInsert" xml:space="preserve">
+    <value>امکان افزودن اين گروه وجود ندارد!</value>
+  </data>
+  <data name="ErrorInsertItem" xml:space="preserve">
+    <value>امکان ثبت آيتم وجود ندارد! احتمالا نوع آيتم مجاز نمي باشد. لطفا دوباره سعي کنيد.</value>
+  </data>
+  <data name="ErrorInsertItemTryAgain" xml:space="preserve">
+    <value>امکان ثبت آيتم وجود ندارد. لطفا دوباره سعي کنيد.</value>
+  </data>
+  <data name="ErrorInsertSmallItem" xml:space="preserve">
+    <value>امکان ثبت آيتم کوچک وجود ندارد. احتمالا نوع آن مجاز نمي باشد.</value>
+  </data>
+  <data name="ErrorInsertTmbImage" xml:space="preserve">
+    <value>سایز عکس انتخاب شده به عنوان تصویر کوچک بزرگتر از حد مجاز می باشد</value>
+  </data>
+  <data name="ErrorLogin" xml:space="preserve">
+    <value>برای ایجاد تصویر در گالری لطفا ابتدا لاگین کنید</value>
+  </data>
+  <data name="ErrorMove" xml:space="preserve">
+    <value>اشکالي در انتقال گروه به وجود آمد!.</value>
+  </data>
+  <data name="ErrorTarnsferToGroup" xml:space="preserve">
+    <value>انتقال تصویر به گروه دیگر با مشکل مواجه شد </value>
+  </data>
+  <data name="ErrorUpdate" xml:space="preserve">
+    <value>اشکال در ذخیره اطلاعات</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>فایل</value>
+  </data>
+  <data name="FileList" xml:space="preserve">
+    <value>لیست فایلها</value>
+  </data>
+  <data name="FileManger" xml:space="preserve">
+    <value>مدیریت فایل</value>
+  </data>
+  <data name="FileName" xml:space="preserve">
+    <value>نام فایل</value>
+  </data>
+  <data name="FileSize" xml:space="preserve">
+    <value>سایز فایل</value>
+  </data>
+  <data name="Film" xml:space="preserve">
+    <value>فيلم</value>
+  </data>
+  <data name="GalleryImageArchive" xml:space="preserve">
+    <value>آرشيو گالري تصاوير</value>
+  </data>
+  <data name="GalleryItemProgramArchive" xml:space="preserve">
+    <value>آرشيو گالري آيتم - برنامه </value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>گروه</value>
+  </data>
+  <data name="GroupImageManger" xml:space="preserve">
+    <value>مديريت گروههاي تصاوير</value>
+  </data>
+  <data name="GroupManagment" xml:space="preserve">
+    <value>مديريت گروهها</value>
+  </data>
+  <data name="GroupName" xml:space="preserve">
+    <value>عنوان گروه</value>
+  </data>
+  <data name="GroupProgramManagment" xml:space="preserve">
+    <value>مديريت گروهها - برنامه</value>
+  </data>
+  <data name="GroupTransfer" xml:space="preserve">
+    <value>انتقال عکسهای انتخاب شده به گروه :</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>طول</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>تصوير</value>
+  </data>
+  <data name="ImagesManagment" xml:space="preserve">
+    <value> مديريت تصاوير</value>
+  </data>
+  <data name="ImpossibleEditItem" xml:space="preserve">
+    <value>امکان ويرايش اطلاعات عمومي آيتم وجود ندارد.</value>
+  </data>
+  <data name="InsertData" xml:space="preserve">
+    <value>ثبت اطلاعات</value>
+  </data>
+  <data name="InsertGroupName" xml:space="preserve">
+    <value>لطفا عنوان گروه درج شود</value>
+  </data>
+  <data name="IntroductionTypeFile" xml:space="preserve">
+    <value>اگر آيتم شما فيلم يا صدا يا تصوير حجيمي است، مي توانيد براي معرفي آن يک تصوير کوچک وارد کنيد. تصوير موجود وضعيت نمايش اوليه آيتم شما را نشان مي دهد.</value>
+  </data>
+  <data name="Item" xml:space="preserve">
+    <value> آيتم</value>
+  </data>
+  <data name="ItemProgramManagment" xml:space="preserve">
+    <value>مديريت آيتمها - برنامه </value>
+  </data>
+  <data name="ItemsManagment" xml:space="preserve">
+    <value>مديريت آيتمها</value>
+  </data>
+  <data name="ItemStatus" xml:space="preserve">
+    <value>وضعيت آيتم</value>
+  </data>
+  <data name="KeyWord" xml:space="preserve">
+    <value>کلمه کلیدی</value>
+  </data>
+  <data name="LastWrite" xml:space="preserve">
+    <value>تاریخ آخرین ویرایش</value>
+  </data>
+  <data name="LightBoxF" xml:space="preserve">
+    <value>/Modules/Gallery/lightbox2.02/js/lightboxF.js</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>مکان</value>
+  </data>
+  <data name="LocationEn" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="Max" xml:space="preserve">
+    <value>حداکثر</value>
+  </data>
+  <data name="MessageDelete" xml:space="preserve">
+    <value>گروه با موفقيت حذف شد.</value>
+  </data>
+  <data name="MessageDeleteItem" xml:space="preserve">
+    <value>آيتم مورد نظر شما با موفقيت حذف گرديد.</value>
+  </data>
+  <data name="MessageDuplicateInsert" xml:space="preserve">
+    <value>گروه تکراری است</value>
+  </data>
+  <data name="MessageInsert" xml:space="preserve">
+    <value>ثبت اطلاعات با موفقيت انجام شد.</value>
+  </data>
+  <data name="MessageMove" xml:space="preserve">
+    <value>گروه با موفقيت منتقل شد.</value>
+  </data>
+  <data name="MessageTarnsferToGroup" xml:space="preserve">
+    <value>انتقال تصویر به گروه دیگر با موفقیت انجام شد </value>
+  </data>
+  <data name="MessageUpdate" xml:space="preserve">
+    <value>ويرايش اطلاعات با موفقيت انجام شد.</value>
+  </data>
+  <data name="Min" xml:space="preserve">
+    <value>حداقل</value>
+  </data>
+  <data name="Month" xml:space="preserve">
+    <value>ماه</value>
+  </data>
+  <data name="NewCategory" xml:space="preserve">
+    <value>گروه جديد</value>
+  </data>
+  <data name="NewItem" xml:space="preserve">
+    <value>آيتم جديد</value>
+  </data>
+  <data name="NextPage" xml:space="preserve">
+    <value>صفحه بعد</value>
+  </data>
+  <data name="NotConfirmItem" xml:space="preserve">
+    <value> آيتم تاييد نشده</value>
+  </data>
+  <data name="NotSelection" xml:space="preserve">
+    <value>آيتم برگزيده نيست.</value>
+  </data>
+  <data name="NotSucceed" xml:space="preserve">
+    <value>در انجام عملیات مشکلی به وجود آمده است</value>
+  </data>
+  <data name="ParentCat" xml:space="preserve">
+    <value>گروههای هم مجموعه</value>
+  </data>
+  <data name="ParentGroup" xml:space="preserve">
+    <value>سرگروه</value>
+  </data>
+  <data name="Photographer" xml:space="preserve">
+    <value>عکاس</value>
+  </data>
+  <data name="PlzInterItem" xml:space="preserve">
+    <value>لطفا آيتم را وارد نماييد.</value>
+  </data>
+  <data name="PlzSelectItemGroup" xml:space="preserve">
+    <value>لطفا گروه آيتم را مشخص کنيد.</value>
+  </data>
+  <data name="PrevPage" xml:space="preserve">
+    <value>صفحه قبل</value>
+  </data>
+  <data name="Root" xml:space="preserve">
+    <value>ریشه</value>
+  </data>
+  <data name="RowId" xml:space="preserve">
+    <value>رديف</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>جستجو</value>
+  </data>
+  <data name="SelectGroup" xml:space="preserve">
+    <value>لطفاً گروهي را انتخاب کنيد!</value>
+  </data>
+  <data name="SelectGroupWait" xml:space="preserve">
+    <value>گروهی را انتخاب کنید...</value>
+  </data>
+  <data name="SelectionItem" xml:space="preserve">
+    <value>آيتم برگزيده است و به عنوان آيتم نمونه در صفحه نشان داده شود.</value>
+  </data>
+  <data name="SelectItems" xml:space="preserve">
+    <value>آيتمهاي برگزيده</value>
+  </data>
+  <data name="ShowAll" xml:space="preserve">
+    <value>نمايش همگي</value>
+  </data>
+  <data name="Size" xml:space="preserve">
+    <value>حجم</value>
+  </data>
+  <data name="SmallItem" xml:space="preserve">
+    <value>آیتم کوچک</value>
+  </data>
+  <data name="Sound" xml:space="preserve">
+    <value>صدا</value>
+  </data>
+  <data name="Source" xml:space="preserve">
+    <value>منبع</value>
+  </data>
+  <data name="SubCat" xml:space="preserve">
+    <value>گروههای زیر مجموعه</value>
+  </data>
+  <data name="SubCategory" xml:space="preserve">
+    <value>به زیر مجموعه گروه </value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>ذخیره</value>
+  </data>
+  <data name="Succeed" xml:space="preserve">
+    <value>عملیات با موفقیت انجام شد</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>بار</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>عنوان</value>
+  </data>
+  <data name="TitleIsEmpty" xml:space="preserve">
+    <value>لطفا عنوان درج شود</value>
+  </data>
+  <data name="TransferToGroup" xml:space="preserve">
+    <value>انتقال</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>نوع</value>
+  </data>
+  <data name="UpdateData" xml:space="preserve">
+    <value>اعمال تغييرات</value>
+  </data>
+  <data name="ValidationStar" xml:space="preserve">
+    <value>*براي ثبت يا ويرايش آيتم پر کردن موارد ستاره دار الزامي است.</value>
+  </data>
+  <data name="ViewImageFreeSize" xml:space="preserve">
+    <value>نمايش اندازه حقيقي</value>
+  </data>
+  <data name="ViewSize" xml:space="preserve">
+    <value>اندازه تصویر</value>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>سال</value>
+  </data>
+  <data name="FileView" xml:space="preserve">
+    <value>مشاهده فايل</value>
+  </data>
+  <data name="DeleteItem" xml:space="preserve">
+    <value>حذف آیتم</value>
+  </data>
+  <data name="ErrorAddCategoryImage" xml:space="preserve">
+    <value>اضافه کردن تصویر دچار مشکل شد ، سایز عکس طبقه بندی باید حداکثر صد در صد پيکسل باشد.</value>
+  </data>
+  <data name="Invalidextension" xml:space="preserve">
+    <value>پسوند فایل معتبر نیست.</value>
+  </data>
+  <data name="ImageGallery" xml:space="preserve">
+    <value>گالری تصاویر</value>
+  </data>
+</root>

@@ -1,0 +1,489 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AlertStar" xml:space="preserve">
+    <value>* Required fields</value>
+  </data>
+  <data name="AlertStatus" xml:space="preserve">
+    <value>News status</value>
+  </data>
+  <data name="Archive" xml:space="preserve">
+    <value>Archive</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="Body" xml:space="preserve">
+    <value>Body</value>
+  </data>
+  <data name="Caption" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="CaptionAndKeywords" xml:space="preserve">
+    <value>Title and keywords</value>
+  </data>
+  <data name="CaptionNews" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="CaptionOrKeyWords" xml:space="preserve">
+    <value>Title or keywords</value>
+  </data>
+  <data name="Comment" xml:space="preserve">
+    <value>Select each group to list it's news. To see all news press 'Show all'.</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Approved</value>
+  </data>
+  <data name="ConfirmDelete" xml:space="preserve">
+    <value>Are you sure you want to delete selected news?</value>
+  </data>
+  <data name="ConfirmDeleteGroup" xml:space="preserve">
+    <value>Are you sure you want to delete this groupe?</value>
+  </data>
+  <data name="ConfirmDeleteImage" xml:space="preserve">
+    <value>Are you sure you want to delete this image?</value>
+  </data>
+  <data name="ConfirmDeleteNewsAndImage" xml:space="preserve">
+    <value>Are you sure you want to delete selected news?</value>
+  </data>
+  <data name="ConfirmEditBatch" xml:space="preserve">
+    <value>Are you sure you want to change group of selected news.</value>
+  </data>
+  <data name="ConfirmNewsForShowInPortal" xml:space="preserve">
+    <value>I approve th news.</value>
+  </data>
+  <data name="ConfirmNewsinPortal" xml:space="preserve">
+    <value>This news is approved and will be shown in the module.</value>
+  </data>
+  <data name="Creator" xml:space="preserve">
+    <value>Creator</value>
+  </data>
+  <data name="DataManagment" xml:space="preserve">
+    <value>Data management</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="DateEndShow" xml:space="preserve">
+    <value>Show end date </value>
+  </data>
+  <data name="DateNews" xml:space="preserve">
+    <value>Create date </value>
+  </data>
+  <data name="DateStarShow" xml:space="preserve">
+    <value>Show start date</value>
+  </data>
+  <data name="Day" xml:space="preserve">
+    <value>Day</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="DeleteSelectNews" xml:space="preserve">
+    <value>Delet selected news</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="EditData" xml:space="preserve">
+    <value>Edit data</value>
+  </data>
+  <data name="ErrorDeleteGroup" xml:space="preserve">
+    <value>There was an error deleting this group because it has some members. Please delete it's members first!</value>
+  </data>
+  <data name="ErrorDeleteImage" xml:space="preserve">
+    <value>There was an error deleting the image.</value>
+  </data>
+  <data name="ErrorDeleteNews" xml:space="preserve">
+    <value>There was an error deleting the news.</value>
+  </data>
+  <data name="ErrorDuplicateName" xml:space="preserve">
+    <value>Name of catecgory is duplicated . </value>
+  </data>
+  <data name="ErrorEditCaptionImage" xml:space="preserve">
+    <value>There was an error updating image title.</value>
+  </data>
+  <data name="ErrorEditData" xml:space="preserve">
+    <value>There was an error updating data.</value>
+  </data>
+  <data name="ErrorEditImage" xml:space="preserve">
+    <value>There was an error updating image. Please try again!</value>
+  </data>
+  <data name="ErrorEditNewsForDate" xml:space="preserve">
+    <value>There was an error updating the news. Please check the dates and try again.</value>
+  </data>
+  <data name="ErrorEmptyBox" xml:space="preserve">
+    <value>Title or Keyword is empty .</value>
+  </data>
+  <data name="ErrorInsertData" xml:space="preserve">
+    <value>There was an error inserting data. Please try again.</value>
+  </data>
+  <data name="ErrorInsertDataTryAgin" xml:space="preserve">
+    <value>There was an error inserting data. Please try again.</value>
+  </data>
+  <data name="ErrorInsertImage" xml:space="preserve">
+    <value>Please enter the image.</value>
+  </data>
+  <data name="ErrorInsertNewsForDate" xml:space="preserve">
+    <value>There was an error inserting the news. Please check the dates and try again.</value>
+  </data>
+  <data name="ErrorSizeImage" xml:space="preserve">
+    <value>Image size should be at most 25 pixels</value>
+  </data>
+  <data name="ErrorSizePic" xml:space="preserve">
+    <value>Image size should be at most 200KB</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="GroupManagment" xml:space="preserve">
+    <value>Group management</value>
+  </data>
+  <data name="GroupName" xml:space="preserve">
+    <value>Group name</value>
+  </data>
+  <data name="GroupNews" xml:space="preserve">
+    <value>News Group</value>
+  </data>
+  <data name="GroupNewsManagment" xml:space="preserve">
+    <value>News group managment</value>
+  </data>
+  <data name="GroupNewsProgramManagment" xml:space="preserve">
+    <value>News group managment - Module </value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="ImagesFor" xml:space="preserve">
+    <value>Images for</value>
+  </data>
+  <data name="IncorrectImageForNews" xml:space="preserve">
+    <value>If you think the image is not for this news, you can update it here. In order to preserve old data don't change anything.</value>
+  </data>
+  <data name="InsertData" xml:space="preserve">
+    <value>Insert data</value>
+  </data>
+  <data name="InsertImage" xml:space="preserve">
+    <value>Insert image</value>
+  </data>
+  <data name="InsertNewData" xml:space="preserve">
+    <value>Insert new data</value>
+  </data>
+  <data name="KeyWords" xml:space="preserve">
+    <value>Keywords</value>
+  </data>
+  <data name="MessageEditData" xml:space="preserve">
+    <value>Data updated sucessfully.</value>
+  </data>
+  <data name="MessageInsertData" xml:space="preserve">
+    <value>Data inserted successfully.</value>
+  </data>
+  <data name="Month" xml:space="preserve">
+    <value>Mounth</value>
+  </data>
+  <data name="MoveGroup" xml:space="preserve">
+    <value>Move to group</value>
+  </data>
+  <data name="NewGroup" xml:space="preserve">
+    <value>New group</value>
+  </data>
+  <data name="NewsArchive" xml:space="preserve">
+    <value>News archive</value>
+  </data>
+  <data name="NewsDetail" xml:space="preserve">
+    <value>News datails</value>
+  </data>
+  <data name="NewsManagment" xml:space="preserve">
+    <value>News management</value>
+  </data>
+  <data name="NewsManagmentProgram" xml:space="preserve">
+    <value>News management - Module </value>
+  </data>
+  <data name="NewsNew" xml:space="preserve">
+    <value>New news</value>
+  </data>
+  <data name="NewsSummary" xml:space="preserve">
+    <value>News summery</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="NotConfirm" xml:space="preserve">
+    <value>Not approved</value>
+  </data>
+  <data name="NotConfirmCorrectNews" xml:space="preserve">
+    <value>I do not approve the news</value>
+  </data>
+  <data name="NotConfirmNews" xml:space="preserve">
+    <value>This news is not approved</value>
+  </data>
+  <data name="NoViewTime" xml:space="preserve">
+    <value>View times</value>
+  </data>
+  <data name="Optional" xml:space="preserve">
+    <value>All optional</value>
+  </data>
+  <data name="OtherImage" xml:space="preserve">
+    <value>You can insert any other image here.</value>
+  </data>
+  <data name="OtherImages" xml:space="preserve">
+    <value>Other images</value>
+  </data>
+  <data name="ParentGroup" xml:space="preserve">
+    <value>Parent group</value>
+  </data>
+  <data name="PlzSelectGroupNews" xml:space="preserve">
+    <value>Please select the news group!</value>
+  </data>
+  <data name="ReadMore" xml:space="preserve">
+    <value>More »</value>
+  </data>
+  <data name="RowId" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="ShowAll" xml:space="preserve">
+    <value>Show all</value>
+  </data>
+  <data name="ShowNews" xml:space="preserve">
+    <value>Show news</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="StatusNews" xml:space="preserve">
+    <value>News status</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="UpdateData" xml:space="preserve">
+    <value>Update data</value>
+  </data>
+  <data name="UpdateImage" xml:space="preserve">
+    <value>You can update image info here. To preserve old date please do not chage anything.</value>
+  </data>
+  <data name="ValidationCaption" xml:space="preserve">
+    <value>Please enter news title!</value>
+  </data>
+  <data name="ValidationGroupName" xml:space="preserve">
+    <value>Please enter group name!</value>
+  </data>
+  <data name="ValidationGroupNews" xml:space="preserve">
+    <value>Please enter news group!</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="NewsDelete" xml:space="preserve">
+    <value>Delete News</value>
+  </data>
+  <data name="NewsEdit" xml:space="preserve">
+    <value>Edit News</value>
+  </data>
+  <data name="TransferShowingToDown" xml:space="preserve">
+    <value>Transfer down</value>
+  </data>
+  <data name="TransferShowingToUp" xml:space="preserve">
+    <value>Transfer up</value>
+  </data>
+  <data name="AllGroups" xml:space="preserve">
+    <value>All Groups</value>
+  </data>
+  <data name="NeedLogIn" xml:space="preserve">
+    <value>برای افزودن خبر باید به مدیریت وارد شوید</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="SendToFriends" xml:space="preserve">
+    <value>Send To Friends</value>
+  </data>
+  <data name="SendToFriendMessage" xml:space="preserve">
+    <value>برای ارسال مطلب به بيش ازيک آدرس، آنها را با , از هم جدا کنيد. برای مثال</value>
+  </data>
+  <data name="ImportantNews" xml:space="preserve">
+    <value>اخبار مهم</value>
+  </data>
+  <data name="OtherNews" xml:space="preserve">
+    <value>سایر اخبار</value>
+  </data>
+  <data name="SelectNews" xml:space="preserve">
+    <value>خبر برگزيده</value>
+  </data>
+  <data name="NewsImportantShow" xml:space="preserve">
+    <value>خبر مهم است و در قسمت اخبار مهم نمايش داده مي شود</value>
+  </data>
+  <data name="NewsSelectOneShow" xml:space="preserve">
+    <value>خبر برگزيده است و به عنوان اولين خبر نمايش داده مي شود</value>
+  </data>
+  <data name="noImportantNews" xml:space="preserve">
+    <value>خبر مهم نيست</value>
+  </data>
+  <data name="noSelectNews" xml:space="preserve">
+    <value>خبر برگزيده نيست</value>
+  </data>
+  <data name="ParentUpdateError" xml:space="preserve">
+    <value>یک گروه نمی تواند سر گروه خودش باشد.</value>
+  </data>
+  <data name="TabIdErrorMessage" xml:space="preserve">
+    <value>Please enter valid TabId in modules setting.</value>
+  </data>
+  <data name="FromSum" xml:space="preserve">
+    <value>From Sum</value>
+  </data>
+  <data name="NewsImagesHelpText" xml:space="preserve">
+    <value>Pictures of </value>
+  </data>
+  <data name="Picture" xml:space="preserve">
+    <value>Picture</value>
+  </data>
+  <data name="PrintableVersion" xml:space="preserve">
+    <value>Printable Version</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Return" xml:space="preserve">
+    <value>Return</value>
+  </data>
+  <data name="Review" xml:space="preserve">
+    <value>Send Review</value>
+  </data>
+  <data name="NoNewsMessage" xml:space="preserve">
+    <value>این صفحه برای نمایش خبر است ولی خبری برای نمایش به آن ارسال نشده است.</value>
+  </data>
+  <data name="NoReviewDLL" xml:space="preserve">
+    <value>اسمبلی ارسال نظرات موجود نمی باشد</value>
+  </data>
+  <data name="NoSendMailDLL" xml:space="preserve">
+    <value>اسمبلی ارسال ایمیل موجود نمی باشد</value>
+  </data>
+  <data name="OrderlyNews" xml:space="preserve">
+    <value>ترتیب خبر</value>
+  </data>
+  <data name="ChangeOrderly" xml:space="preserve">
+    <value>تغییر ترتیب خبر</value>
+  </data>
+</root>
