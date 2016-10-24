@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E06FA3F6-100A-49F6-B620-5C8E1E912CAA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PayaDB</RootNamespace>
+    <AssemblyName>PayaDB</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.OpenAccess, Version=2010.2.714.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.OpenAccess.35.Extensions, Version=2010.2.714.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AspnetWebEventEvent.cs" />
+    <Compile Include="AspnetWebEventEvent.Telerik.OpenAccess.cs">
+      <DependentUpon>AspnetWebEventEvent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PayaScopeProvider1.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TAuthObjBased.cs" />
+    <Compile Include="TAuthObjBased.Telerik.OpenAccess.cs">
+      <DependentUpon>TAuthObjBased.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TAuthRoleBased.cs" />
+    <Compile Include="TAuthRoleBased.Telerik.OpenAccess.cs">
+      <DependentUpon>TAuthRoleBased.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TBannedIpAddress.cs" />
+    <Compile Include="TBannedIpAddress.Telerik.OpenAccess.cs">
+      <DependentUpon>TBannedIpAddress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TBannedIpNetwork.cs" />
+    <Compile Include="TBannedIpNetwork.Telerik.OpenAccess.cs">
+      <DependentUpon>TBannedIpNetwork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TForgetPass.cs" />
+    <Compile Include="TForgetPass.Telerik.OpenAccess.cs">
+      <DependentUpon>TForgetPass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TLanguage.cs" />
+    <Compile Include="TLanguage.Telerik.OpenAccess.cs">
+      <DependentUpon>TLanguage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TLocalResource.cs" />
+    <Compile Include="TLocalResource.Telerik.OpenAccess.cs">
+      <DependentUpon>TLocalResource.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TLogException.cs" />
+    <Compile Include="TLogException.Telerik.OpenAccess.cs">
+      <DependentUpon>TLogException.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TModule.cs" />
+    <Compile Include="TModule.Telerik.OpenAccess.cs">
+      <DependentUpon>TModule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TModuleDef.cs" />
+    <Compile Include="TModuleDef.Telerik.OpenAccess.cs">
+      <DependentUpon>TModuleDef.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TModuleDefInPortal.cs" />
+    <Compile Include="TModuleDefInPortal.Telerik.OpenAccess.cs">
+      <DependentUpon>TModuleDefInPortal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TModuleDefRoleDefault.cs" />
+    <Compile Include="TModuleDefRoleDefault.Telerik.OpenAccess.cs">
+      <DependentUpon>TModuleDefRoleDefault.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TModuleDefSetting.cs" />
+    <Compile Include="TModuleDefSetting.Telerik.OpenAccess.cs">
+      <DependentUpon>TModuleDefSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TModuleRole.cs" />
+    <Compile Include="TModuleRole.Telerik.OpenAccess.cs">
+      <DependentUpon>TModuleRole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TModuleSetting.cs" />
+    <Compile Include="TModuleSetting.Telerik.OpenAccess.cs">
+      <DependentUpon>TModuleSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TMonitoring.cs" />
+    <Compile Include="TMonitoring.Telerik.OpenAccess.cs">
+      <DependentUpon>TMonitoring.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TObjRole.cs" />
+    <Compile Include="TObjRole.Telerik.OpenAccess.cs">
+      <DependentUpon>TObjRole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TObjUser.cs" />
+    <Compile Include="TObjUser.Telerik.OpenAccess.cs">
+      <DependentUpon>TObjUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TPortal.cs" />
+    <Compile Include="TPortal.Telerik.OpenAccess.cs">
+      <DependentUpon>TPortal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TPortalLanguage.cs" />
+    <Compile Include="TPortalLanguage.Telerik.OpenAccess.cs">
+      <DependentUpon>TPortalLanguage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TPortalSetting.cs" />
+    <Compile Include="TPortalSetting.Telerik.OpenAccess.cs">
+      <DependentUpon>TPortalSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TQueuedEmail.cs" />
+    <Compile Include="TQueuedEmail.Telerik.OpenAccess.cs">
+      <DependentUpon>TQueuedEmail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TRegisterReq.cs" />
+    <Compile Include="TRegisterReq.Telerik.OpenAccess.cs">
+      <DependentUpon>TRegisterReq.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TRole.cs" />
+    <Compile Include="TRole.Telerik.OpenAccess.cs">
+      <DependentUpon>TRole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TTab.cs" />
+    <Compile Include="TTab.Telerik.OpenAccess.cs">
+      <DependentUpon>TTab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TTabFlat.cs" />
+    <Compile Include="TTabFlat.Telerik.OpenAccess.cs">
+      <DependentUpon>TTabFlat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TTabRole.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TTabRole.Telerik.OpenAccess.cs">
+      <DependentUpon>TTabRole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TUser.cs" />
+    <Compile Include="TUser.Telerik.OpenAccess.cs">
+      <DependentUpon>TUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TUserCustomProfile.cs" />
+    <Compile Include="TUserCustomProfile.Telerik.OpenAccess.cs">
+      <DependentUpon>TUserCustomProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TUserRole.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TUserRole.Telerik.OpenAccess.cs">
+      <DependentUpon>TUserRole.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="App.Config">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="reversemapping.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties OpenAccess_ConfigFile="App.config" OpenAccess_ConnectionId="DatabaseConnection" OpenAccess_Enhancing="True" OpenAccess_UpdateDatabase="False" OpenAccess_EnhancementOutputLevel="1" />
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
